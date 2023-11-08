@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "208wGZPAuJTLgttMkHh8mqmN45X0ytKRNPRBUQKyIUDOYgjtNEDikCCg3IzMEGI+OpTWNHMe5lSCauhOGXBxSw==",
+  "dgSpecHash": "f1p/frbAd3NHRF9VmM7npVAuu+5VJPWMUkTlJsR+jpipIoIiYyYs2K39ipx08lBVK3dKTgkiDnlw5TCpxS9ldA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tn_merqe\\Documents\\SPC Report\\SPCReportingTool\\SPCReportingTool\\SPCReportingTool.csproj",
+  "projectFilePath": "C:\\Users\\tn_merqe\\Documents\\GitHub\\SPCReporter\\SPCReportingTool\\SPCReportingTool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tn_merqe\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\tn_merqe\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

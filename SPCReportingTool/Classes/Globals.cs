@@ -14,76 +14,28 @@ namespace SPCReportingTool.Classes
         //  --- Read-only variables. (Grouped by context) ---
         internal readonly static string computerName = Dns.GetHostName().ToUpper();
         internal readonly static string executingDirectory = AppDomain.CurrentDomain.BaseDirectory;
-        internal readonly static int msTimeOut = 200;
-        internal readonly static int msMainLoopTimeOut = 5000;
 
-        internal readonly static string configurationPath = executingDirectory + @"DATAPUMP.YAML";
-        internal readonly static string VersionPath = executingDirectory + @"Version.str";
-
-        //  --- FTP Variables ---
-
-        internal readonly static string ftpUsername = computerName;
-        internal readonly static string ftpPassword = @"";
-        internal readonly static string ftpPath = @"ftp://scriptftp/";
-
-        //  --- SFTP Variables --- NOT IMPLEMENTED YET
-
-        internal readonly static string sftpUsername = @"";
-        internal readonly static string sftpPassword = @"";
-        internal readonly static int sftpPort = 22;
-        internal readonly static string sftpHost = @"";
 
         //  --- SQL Variables for connection ---
-
         internal readonly static Dictionary<string, string[]> SQLLogins = new Dictionary<string, string[]>
         {
-            //{ "DBName", new string[] { server, db, user, password} }
-            //{ "TestDB", new string[] { @"tndb01", @"TestDB", @"sequence", @"seq" } },
             { "Dataterm", new string[] { @"tndb01", @"dataterm", @"ro", @"read" } },
             { "SPCReports", new string[] { @"tndb01", @"SPCReports", @"SPCReporter", @"test" } },
             { "PlanningDB", new string[] { @"tndb01", @"PlanningDB", @"ro", @"read" } }
         };
 
-        //  --- Live variables. (Variables that can be manipulated through the application life-cycle) ---
-
-        //Whether the application is running - ActionLoop();
-        //internal static bool isRunning = true;
-        //internal static Random randomGen = new Random();
-    }
-
-    internal enum InspectionType
-    {
-        Type1,
-        Type2,
-        Type3
-    }
-
-    internal enum FileError
-    {
-        EmptyFile,
-        ServerMoving,
-        DBError,
-        Delete
+        // Language mode of the application
+        internal static bool englishMode = false;
     }
 
     /// <summary>
-    /// This enumerator is used for defining abstract level of severity.
+    /// Enumerator for the auto sizing modes in a data Grid View
     /// </summary>
-    internal enum SeverityEnum
+    internal enum AutoSizeModes
     {
-        Error,
-        Warning,
-        Notice,
-        Info,
-        Debug
-    }
-
-    internal enum AppSteps
-    {
-        Initializion,
-        Configuration,
-        Running,
-        Restart
+        FirstFill,
+        LastFill,
+        Evenly
     }
 
     /// <summary>
@@ -93,12 +45,12 @@ namespace SPCReportingTool.Classes
     {
         internal static readonly ProcedureInfo InsertNewReport = new ProcedureInfo("InsertNewReport", true);
         internal static readonly ProcedureInfo InsertNewDefect = new ProcedureInfo("InsertNewDefect", false);
-        internal static readonly ProcedureInfo NewActivityTrace = new ProcedureInfo("NewActivityTrace", false);
-        internal static readonly ProcedureInfo NewNotification = new ProcedureInfo("NewNotification", false);
-        internal static readonly ProcedureInfo GetTracePartionning = new ProcedureInfo("GetTracePartionning", true);
-
-        //Just for attempts
-        internal static readonly ProcedureInfo ProcedureTest = new ProcedureInfo("ProcedureTest", false);
+        internal static readonly ProcedureInfo GetReports = new ProcedureInfo("GetReports", true);
+        internal static readonly ProcedureInfo GetDefectsFromReport = new ProcedureInfo("GetDefectsFromReport", true);
+        internal static readonly ProcedureInfo UpdateReport = new ProcedureInfo("UpdateReport", false);
+        internal static readonly ProcedureInfo DeleteReport = new ProcedureInfo("DeleteReport", false);
+        internal static readonly ProcedureInfo DeleteAllDefects = new ProcedureInfo("DeleteAllDefects", false);
+        internal static readonly ProcedureInfo RequestLogin = new ProcedureInfo("RequestLogin", true);
 
         //intern class to clarify access to SQLProcedures.Procedure (we can use storedProcedureName.Name) for exemple
         internal class ProcedureInfo

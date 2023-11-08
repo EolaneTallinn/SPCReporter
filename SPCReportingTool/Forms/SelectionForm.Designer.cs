@@ -30,6 +30,7 @@ namespace SPCReportingTool.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectionForm));
             dataGV_Selection = new DataGridView();
             lbl_Select = new Label();
             btn_Select = new Button();
@@ -38,47 +39,36 @@ namespace SPCReportingTool.Forms
             // 
             // dataGV_Selection
             // 
+            resources.ApplyResources(dataGV_Selection, "dataGV_Selection");
             dataGV_Selection.AllowUserToAddRows = false;
             dataGV_Selection.AllowUserToDeleteRows = false;
             dataGV_Selection.AllowUserToOrderColumns = true;
             dataGV_Selection.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGV_Selection.Location = new Point(12, 33);
             dataGV_Selection.MultiSelect = false;
             dataGV_Selection.Name = "dataGV_Selection";
             dataGV_Selection.ReadOnly = true;
             dataGV_Selection.RowTemplate.Height = 25;
-            dataGV_Selection.Size = new Size(776, 376);
-            dataGV_Selection.TabIndex = 0;
             // 
             // lbl_Select
             // 
-            lbl_Select.AutoSize = true;
-            lbl_Select.Location = new Point(12, 9);
+            resources.ApplyResources(lbl_Select, "lbl_Select");
             lbl_Select.Name = "lbl_Select";
-            lbl_Select.Size = new Size(68, 15);
-            lbl_Select.TabIndex = 1;
-            lbl_Select.Text = "Select item:";
             // 
             // btn_Select
             // 
-            btn_Select.Location = new Point(713, 415);
+            resources.ApplyResources(btn_Select, "btn_Select");
             btn_Select.Name = "btn_Select";
-            btn_Select.Size = new Size(75, 23);
-            btn_Select.TabIndex = 2;
-            btn_Select.Text = "Select";
             btn_Select.UseVisualStyleBackColor = true;
             btn_Select.Click += btn_Select_Click;
             // 
             // SelectionForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
             Controls.Add(btn_Select);
             Controls.Add(lbl_Select);
             Controls.Add(dataGV_Selection);
             Name = "SelectionForm";
-            Text = "SelectionForm";
             ((System.ComponentModel.ISupportInitialize)dataGV_Selection).EndInit();
             ResumeLayout(false);
             PerformLayout();

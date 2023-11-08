@@ -12,6 +12,14 @@
         },
         "runtime": {
           "SPCReportingTool.dll": {}
+        },
+        "resources": {
+          "en-US/SPCReportingTool.resources.dll": {
+            "locale": "en-US"
+          },
+          "ru/SPCReportingTool.resources.dll": {
+            "locale": "ru"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},

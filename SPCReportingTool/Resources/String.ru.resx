@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplyChangesBtn" xml:space="preserve">
+    <value>Применить Изменения</value>
+    <comment>Text on the Send Data button in edit mode</comment>
+  </data>
+  <data name="DBBatchQtyReportView" xml:space="preserve">
+    <value>Кол-во Заказа</value>
+    <comment>Batch Qty Column name when querying the Report View</comment>
+  </data>
+  <data name="DBCommentDefectView" xml:space="preserve">
+    <value>Комментапий</value>
+    <comment>Comment Column name when querying the Defect View</comment>
+  </data>
+  <data name="DBDefectCodeDefectView" xml:space="preserve">
+    <value>Код дефекта</value>
+    <comment>Defect Code Column name when querying the Defect View</comment>
+  </data>
+  <data name="DBEndDateReportView" xml:space="preserve">
+    <value>Дата Конца</value>
+    <comment>End Date Column name when querying the Report View</comment>
+  </data>
+  <data name="DBErrorDefectView" xml:space="preserve">
+    <value>Тип дефекта</value>
+    <comment>Error Type Column name when querying the Defect View</comment>
+  </data>
+  <data name="DBErrorFieldDefectsView" xml:space="preserve">
+    <value>[ErrorType (RUS)]</value>
+    <comment>Name of the DB field for Error Type</comment>
+  </data>
+  <data name="DBInspectionTypeReportView" xml:space="preserve">
+    <value>Тип Контроли</value>
+    <comment>Inspection Type Column name when querying the Report View</comment>
+  </data>
+  <data name="DBInspectorIDReportView" xml:space="preserve">
+    <value>ИД Инспектора</value>
+    <comment>Inspector ID Column name when querying the Report View</comment>
+  </data>
+  <data name="DBInspectorNameReportView" xml:space="preserve">
+    <value>Имя Инспектора</value>
+    <comment>Inspector Name Column name when querying the Report View</comment>
+  </data>
+  <data name="DBInspFieldDefectsView" xml:space="preserve">
+    <value>[InspectionType (RUS)]</value>
+    <comment>Name of the DB field for Inspection Type</comment>
+  </data>
+  <data name="DBNameColumn" xml:space="preserve">
+    <value>Name_RUS</value>
+    <comment>Name of the column in the database to get the name of the object in the specific language</comment>
+  </data>
+  <data name="DBProdOrderReportView" xml:space="preserve">
+    <value>Заказ</value>
+    <comment>Production Order Column name when querying the Report View</comment>
+  </data>
+  <data name="DBProductReportView" xml:space="preserve">
+    <value>Код Продукта</value>
+    <comment>Product Code Column name when querying the Report View</comment>
+  </data>
+  <data name="DBQtyCheckedReportView" xml:space="preserve">
+    <value>Провер. Кол-во</value>
+    <comment>Qty Checked Column name when querying the Report View</comment>
+  </data>
+  <data name="DBQtyDefectiveReportView" xml:space="preserve">
+    <value>Кол-во дефектных</value>
+    <comment>Qty Defective Column name when querying the Report View</comment>
+  </data>
+  <data name="DBReferenceDefectView" xml:space="preserve">
+    <value>Ссылка</value>
+    <comment>Reference Column name when querying the Defect View</comment>
+  </data>
+  <data name="DBReportIDReportView" xml:space="preserve">
+    <value>ИД Отчёта</value>
+    <comment>Report ID Column name when querying the Report View</comment>
+  </data>
+  <data name="DBStartDateReportView" xml:space="preserve">
+    <value>Дата Начала</value>
+    <comment>Start Date Column name when querying the Report View</comment>
+  </data>
+  <data name="DBStepDefectView" xml:space="preserve">
+    <value>Стадия производственного процесса</value>
+    <comment>Manufacturing Step Column name when querying the Defect View</comment>
+  </data>
+  <data name="DBStepFieldDefectsView" xml:space="preserve">
+    <value>[ManufacturingStep (RUS)]</value>
+    <comment>Name of the DB field for Manufacturing Step</comment>
+  </data>
+  <data name="DefectCountLbl" xml:space="preserve">
+    <value> зарегистрировано дефект(ов)</value>
+    <comment>Number of registered defect indication</comment>
+  </data>
+  <data name="DefectViewerCol1" xml:space="preserve">
+    <value>Номер</value>
+    <comment>Name of the column 1 of the defectViewer dataTable</comment>
+  </data>
+  <data name="DefectViewerCol2" xml:space="preserve">
+    <value>Стадия производственного процесса</value>
+    <comment>Name of the column 2 of the defectViewer dataTable</comment>
+  </data>
+  <data name="DefectViewerCol3" xml:space="preserve">
+    <value>Тип дефекта</value>
+    <comment>Name of the column 3 of the defectViewer dataTable</comment>
+  </data>
+  <data name="DefectViewerCol4" xml:space="preserve">
+    <value>Код дефекта</value>
+    <comment>Name of the column 4 of the defectViewer dataTable</comment>
+  </data>
+  <data name="DefectViewerCol5" xml:space="preserve">
+    <value>Ссылка</value>
+    <comment>Name of the column 5 of the defectViewer dataTable</comment>
+  </data>
+  <data name="DefectViewerCol6" xml:space="preserve">
+    <value>Комментапий</value>
+    <comment>Name of the column 6 of the defectViewer dataTable</comment>
+  </data>
+  <data name="DeleteReportConf" xml:space="preserve">
+    <value>Отчёт будет удален из базы данных и невозможно отменить это действие</value>
+    <comment>Confirmation message when trying to delete the report</comment>
+  </data>
+  <data name="DeleteReportErr" xml:space="preserve">
+    <value>Ошибка при удалении отчета</value>
+    <comment>Error thrown when trying to delete the report</comment>
+  </data>
+  <data name="EditButton" xml:space="preserve">
+    <value>Изменить</value>
+    <comment>Text on the button for edit action</comment>
+  </data>
+  <data name="EndDateFilter" xml:space="preserve">
+    <value>Дата Конца</value>
+    <comment>End Date Item for date filtering</comment>
+  </data>
+  <data name="EnterEditModeBtn" xml:space="preserve">
+    <value>Начать Изменять</value>
+    <comment>Text written on the edit mode button when the edit mode is not active</comment>
+  </data>
+  <data name="ExitEditModeBtn" xml:space="preserve">
+    <value>Перестать Изменять</value>
+    <comment>Text written on the edit mode button when the edit mode is active</comment>
+  </data>
+  <data name="HeaderEditTitle" xml:space="preserve">
+    <value>Главные Информации - Отчёт </value>
+    <comment>Title of the header form window in edition mode</comment>
+  </data>
+  <data name="NoDateFilter" xml:space="preserve">
+    <value>Нет фильтра даты</value>
+    <comment>No Date Filter Item for date filtering</comment>
+  </data>
+  <data name="NoDefectLbl" xml:space="preserve">
+    <value>0 зарегистрировано дефект(ов)</value>
+    <comment>No registered defect indication</comment>
+  </data>
+  <data name="NoDefectSelectedErr" xml:space="preserve">
+    <value>Ни один дефект не выбран</value>
+    <comment>Error thrown when no defects are selected but defect action is requested</comment>
+  </data>
+  <data name="NoOrderErr" xml:space="preserve">
+    <value>Ни одно заказ не найдено на продукт</value>
+    <comment>Error thrown when no orders are found for the specified product</comment>
+  </data>
+  <data name="NoProductSelectedErr" xml:space="preserve">
+    <value>Пожалуйста, заполните код продукта, прежде чем искать заказы</value>
+    <comment>Error thrown when trying to look for production order before filling the product fill</comment>
+  </data>
+  <data name="NoRowSelectedErr" xml:space="preserve">
+    <value>Ни одна строка не выбрана. Пожалуйста, выберите строку</value>
+    <comment>Error thrown no rows are selected and selection is requested</comment>
+  </data>
+  <data name="RemoveAllDefectConf" xml:space="preserve">
+    <value>Это действие удалит все зарегистрированные дефекты и его нельзя будет отменить.</value>
+    <comment>Confirmation message when trying to remove all the defects</comment>
+  </data>
+  <data name="SendDataConf" xml:space="preserve">
+    <value>Данные будут отправлены в базу данных. Пожалуйста, проверьте данные и нажмите «Продолжать», если все в порядке.</value>
+    <comment>Confirmation message when trying to send the data to DB</comment>
+  </data>
+  <data name="SendDataErr" xml:space="preserve">
+    <value>Ошибка при вставке отчета</value>
+    <comment>Error thrown when sending data to DB is not possible</comment>
+  </data>
+  <data name="StartDateFilter" xml:space="preserve">
+    <value>Дата Начала</value>
+    <comment>Start Date Item for date filtering</comment>
+  </data>
+</root>

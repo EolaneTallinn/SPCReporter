@@ -28,69 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_NewReport = new System.Windows.Forms.Button();
-            this.btn_EditReport = new System.Windows.Forms.Button();
-            this.btn_ChangeLanguage = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartMenu));
+            btn_NewReport = new Button();
+            btn_ViewReports = new Button();
+            btn_ChangeLanguage = new Button();
+            SuspendLayout();
             // 
             // btn_NewReport
             // 
-            this.btn_NewReport.BackColor = System.Drawing.Color.PaleGreen;
-            this.btn_NewReport.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btn_NewReport.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_NewReport.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_NewReport.Location = new System.Drawing.Point(12, 41);
-            this.btn_NewReport.Name = "btn_NewReport";
-            this.btn_NewReport.Size = new System.Drawing.Size(184, 171);
-            this.btn_NewReport.TabIndex = 0;
-            this.btn_NewReport.Text = "New Report";
-            this.btn_NewReport.UseVisualStyleBackColor = false;
-            this.btn_NewReport.Click += new System.EventHandler(this.btn_NewReport_Click);
+            resources.ApplyResources(btn_NewReport, "btn_NewReport");
+            btn_NewReport.BackColor = Color.PaleGreen;
+            btn_NewReport.FlatAppearance.BorderColor = Color.FromArgb(0, 192, 0);
+            btn_NewReport.ForeColor = SystemColors.ControlText;
+            btn_NewReport.Name = "btn_NewReport";
+            btn_NewReport.UseVisualStyleBackColor = false;
+            btn_NewReport.Click += btn_NewReport_Click;
             // 
-            // btn_EditReport
+            // btn_ViewReports
             // 
-            this.btn_EditReport.BackColor = System.Drawing.Color.Khaki;
-            this.btn_EditReport.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btn_EditReport.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_EditReport.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_EditReport.Location = new System.Drawing.Point(207, 41);
-            this.btn_EditReport.Name = "btn_EditReport";
-            this.btn_EditReport.Size = new System.Drawing.Size(184, 171);
-            this.btn_EditReport.TabIndex = 1;
-            this.btn_EditReport.Text = "View Reports";
-            this.btn_EditReport.UseVisualStyleBackColor = false;
-            this.btn_EditReport.Click += new System.EventHandler(this.btn_EditReport_Click);
+            resources.ApplyResources(btn_ViewReports, "btn_ViewReports");
+            btn_ViewReports.BackColor = Color.Khaki;
+            btn_ViewReports.FlatAppearance.BorderColor = Color.FromArgb(0, 192, 0);
+            btn_ViewReports.ForeColor = SystemColors.ControlText;
+            btn_ViewReports.Name = "btn_ViewReports";
+            btn_ViewReports.UseVisualStyleBackColor = false;
+            btn_ViewReports.Click += btn_ViewReports_Click;
             // 
             // btn_ChangeLanguage
             // 
-            this.btn_ChangeLanguage.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btn_ChangeLanguage.Location = new System.Drawing.Point(12, 12);
-            this.btn_ChangeLanguage.Name = "btn_ChangeLanguage";
-            this.btn_ChangeLanguage.Size = new System.Drawing.Size(379, 23);
-            this.btn_ChangeLanguage.TabIndex = 2;
-            this.btn_ChangeLanguage.Text = "Switch to Russian";
-            this.btn_ChangeLanguage.UseVisualStyleBackColor = false;
-            this.btn_ChangeLanguage.Click += new System.EventHandler(this.btn_ChangeLanguage_Click);
+            resources.ApplyResources(btn_ChangeLanguage, "btn_ChangeLanguage");
+            btn_ChangeLanguage.BackColor = Color.PaleTurquoise;
+            btn_ChangeLanguage.Name = "btn_ChangeLanguage";
+            btn_ChangeLanguage.UseVisualStyleBackColor = false;
+            btn_ChangeLanguage.Click += btn_ChangeLanguage_Click;
             // 
             // StartMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(403, 224);
-            this.Controls.Add(this.btn_ChangeLanguage);
-            this.Controls.Add(this.btn_EditReport);
-            this.Controls.Add(this.btn_NewReport);
-            this.Name = "StartMenu";
-            this.Text = "StartMenu";
-            this.ResumeLayout(false);
-
+            resources.ApplyResources(this, "$this");
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Window;
+            Controls.Add(btn_ChangeLanguage);
+            Controls.Add(btn_ViewReports);
+            Controls.Add(btn_NewReport);
+            Name = "StartMenu";
+            ResumeLayout(false);
         }
 
         #endregion
 
         private Button btn_NewReport;
-        private Button btn_EditReport;
+        private Button btn_ViewReports;
         private Button btn_ChangeLanguage;
     }
 }

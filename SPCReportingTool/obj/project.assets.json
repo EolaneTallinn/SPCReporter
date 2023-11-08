@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tn_merqe\\Documents\\SPC Report\\SPCReportingTool\\SPCReportingTool\\SPCReportingTool.csproj",
+      "projectUniqueName": "C:\\Users\\tn_merqe\\Documents\\GitHub\\SPCReporter\\SPCReportingTool\\SPCReportingTool.csproj",
       "projectName": "SPCReportingTool",
-      "projectPath": "C:\\Users\\tn_merqe\\Documents\\SPC Report\\SPCReportingTool\\SPCReportingTool\\SPCReportingTool.csproj",
+      "projectPath": "C:\\Users\\tn_merqe\\Documents\\GitHub\\SPCReporter\\SPCReportingTool\\SPCReportingTool.csproj",
       "packagesPath": "C:\\Users\\tn_merqe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tn_merqe\\Documents\\SPC Report\\SPCReportingTool\\SPCReportingTool\\obj\\",
+      "outputPath": "C:\\Users\\tn_merqe\\Documents\\GitHub\\SPCReporter\\SPCReportingTool\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

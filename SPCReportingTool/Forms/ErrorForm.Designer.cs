@@ -26,43 +26,34 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent(string error)
+        private void InitializeComponent()
         {
-            this.lbl_Error = new System.Windows.Forms.Label();
-            this.btn_Ack = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ErrorForm));
+            lbl_Error = new Label();
+            btn_Ack = new Button();
+            SuspendLayout();
             // 
-            // label1
+            // lbl_Error
             // 
-            this.lbl_Error.AutoSize = true;
-            this.lbl_Error.Location = new System.Drawing.Point(99, 30);
-            this.lbl_Error.Name = "lbl_Error";
-            this.lbl_Error.Size = new System.Drawing.Size(81, 15);
-            this.lbl_Error.TabIndex = 0;
-            this.lbl_Error.Text = error;
+            resources.ApplyResources(lbl_Error, "lbl_Error");
+            lbl_Error.ForeColor = Color.Red;
+            lbl_Error.Name = "lbl_Error";
             // 
             // btn_Ack
             // 
-            this.btn_Ack.Location = new System.Drawing.Point(201, 67);
-            this.btn_Ack.Name = "btn_Ack";
-            this.btn_Ack.Size = new System.Drawing.Size(75, 23);
-            this.btn_Ack.TabIndex = 1;
-            this.btn_Ack.Text = "Ok";
-            this.btn_Ack.UseVisualStyleBackColor = true;
-            this.btn_Ack.Click += new System.EventHandler(this.btn_Ack_Click);
+            resources.ApplyResources(btn_Ack, "btn_Ack");
+            btn_Ack.Name = "btn_Ack";
+            btn_Ack.UseVisualStyleBackColor = true;
+            btn_Ack.Click += btn_Ack_Click;
             // 
-            // Form1
+            // ErrorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 102);
-            this.Controls.Add(this.btn_Ack);
-            this.Controls.Add(this.lbl_Error);
-            this.Name = "ErrorForm";
-            this.Text = "Error";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            resources.ApplyResources(this, "$this");
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btn_Ack);
+            Controls.Add(lbl_Error);
+            Name = "ErrorForm";
+            ResumeLayout(false);
         }
 
         #endregion

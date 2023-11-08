@@ -16,61 +16,16 @@ namespace SPCReportingTool.Classes
     /// </summary>
     internal class DatabaseManager
     {
+
         /// <summary>
-        /// This Method will query the SQL server accessible through the provide login and with the provided query. If the parameter output is true, then it will expect the query to give a result.
+        /// ExecuteSQLQuery Method
+        /// Execute an SQL query with the specified login
         /// </summary>
         /// <param name="query"></param>
         /// <param name="logins"></param>
-        /// <param name="output"></param>
-        /// <returns>dictionnary of query's result</returns>
-        internal static List<Dictionary<string, object>> GetListFromSQLQuery(String query, string[] logins, Boolean output)
-        {
-            List<Dictionary<string, object>> outResult = new List<Dictionary<string, object>>();
-
-            try
-            {
-                String connetionString = $@"Server={logins[0]};Database={logins[1]};User Id={logins[2]};Password={logins[3]};";
-                using (SqlConnection sqlConn = new SqlConnection(connetionString))
-                {
-                    sqlConn.Open();
-
-                    // create a command object identifying the stored procedure
-                    SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
-
-                    // execute the command
-                    using (SqlDataReader reader = sqlCmd.ExecuteReader())
-                    {
-                        //if storedProcedure returns data, we read it
-                        if (output)
-                        {
-                            while (reader.Read())
-                            {
-                                Dictionary<string, object> subOutResult = new Dictionary<string, object>();
-                                for (int i = 0; i < reader.FieldCount; i++)
-                                {
-                                    subOutResult.Add(reader.GetName(i), reader.GetValue(i));
-                                }
-                                outResult.Add(subOutResult);
-                            }
-                        }
-                    }
-                }
-            }
-            catch (Exception exception)
-            {
-                //MessageManager.InitializeMessage(AppSteps.Running, "ExecuteSQLQuery : " + exception.Message, SeverityEnum.Error);
-            }
-
-            if (output && outResult.Count <= 0)
-            {
-                throw new ArgumentException("There were no records returned from the stored query:\n'" + query + "'");
-            }
-
-            //MessageManager.InitializeMessage(AppSteps.Running, "Query:\n'" + query + "' - Executed successfuly.", SeverityEnum.Debug);
-
-            return outResult;
-        }
-
+        /// <returns>
+        /// DataTable with the results of the query
+        /// </returns>
         internal static DataTable ExecuteSQLQuery(String query, string[] logins)
         {
             DataTable dt = new DataTable();
@@ -96,79 +51,17 @@ namespace SPCReportingTool.Classes
             return dt;
         }
 
-        /// <summary>
-        /// This Method executes a provided to it stored procedure, with it's adjacent parameters.
-        /// </summary>
-        /// <param name="storedProcedureName"></param>
-        /// <param name="procedureParameters"></param>
-        /// <returns>dictionnary of query's result</returns>
-        internal static List<Dictionary<string, object>> ExecuteStoredProcedure(string[] logins, SQLProcedures.ProcedureInfo storedProcedureName, bool output, Dictionary<string, object> procedureParameters = null)
-        {
-            List<Dictionary<string, object>> outResult = new List<Dictionary<string, object>>();
-
-
-            try
-            {
-                using (SqlConnection sqlConn = new SqlConnection($@"Server={logins[0]};Database={logins[1]};User Id={logins[2]};Password={logins[3]};"))
-                {
-                    sqlConn.Open();
-
-                    // create a command object identifying the stored procedure
-                    SqlCommand sqlCmd = new SqlCommand(storedProcedureName.Name, sqlConn);
-
-                    // set the command object so it knows to execute a stored procedure
-                    sqlCmd.CommandType = CommandType.StoredProcedure;
-
-                    // add parameter to command, which will be passed to the stored procedure
-                    if(procedureParameters != null)
-                    {
-                        foreach (KeyValuePair<string, object> param in procedureParameters)
-                        {
-                            sqlCmd.Parameters.AddWithValue(param.Key, param.Value);
-                        }
-                    }
-
-                    // execute the command
-                    using (SqlDataReader reader = sqlCmd.ExecuteReader())
-                    {
-                        //if storedProcedure returns data, we read it
-                        if (storedProcedureName.Return)
-                        {
-                            while(reader.Read())
-                            {
-                                Dictionary<string, object> subOutResult = new Dictionary<string, object>();
-                                for (int i = 0; i < reader.FieldCount; i++)
-                                {
-                                    subOutResult.Add(reader.GetName(i), reader.GetValue(i));
-                                }
-                                outResult.Add(subOutResult);
-                            }
-                        }
-                    }
-                }
-            }
-            catch (Exception exception)
-            {
-                //MessageManager.InitializeMessage(AppSteps.Running, "ExecuteStoredProcedure : " + exception.Message, SeverityEnum.Error);
-            }
-
-            if (storedProcedureName.Return && outResult.Count <= 0)
-            {
-                throw new ArgumentException("There were no records returned from the stored procedure - '" + storedProcedureName.Name + "'");
-            }
-
-            //MessageManager.InitializeMessage(AppSteps.Running, "Procedure '" + storedProcedureName.Name + "' - Executed successfuly.", SeverityEnum.Debug);
-
-            return outResult;
-        }
 
         /// <summary>
         /// This Method executes a provided to it stored procedure, with it's adjacent parameters.
         /// </summary>
+        /// <param name="logins"></param>
         /// <param name="storedProcedureName"></param>
         /// <param name="procedureParameters"></param>
-        /// <returns>dictionnary of query's result</returns>
-        internal static DataTable ExecuteStoredProcedure(string[] logins, SQLProcedures.ProcedureInfo storedProcedureName, Dictionary<string, object> procedureParameters = null)
+        /// <returns>
+        /// DataTable with the results of the procedure (if any)
+        /// </returns>
+        internal static DataTable ExecuteStoredProcedure(string[] logins, SQLProcedures.ProcedureInfo storedProcedureName, Dictionary<string, object>? procedureParameters = null)
         {
             DataTable dt = new DataTable();
             try
@@ -210,7 +103,6 @@ namespace SPCReportingTool.Classes
         /// <summary>
         /// This method check whether the DBs are available.
         /// </summary>
-        /// <param name="sqlConn"></param>
         internal static void PingDB()
         {
             try
@@ -232,18 +124,13 @@ namespace SPCReportingTool.Classes
             }
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// AddNewEmptyDataRow Method
+        /// Add a new empty row to a DataTable
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
-        internal static List<Dictionary<string, object>> GetListFromDataTable(DataTable dt)
-        {
-            return null;
-        }
-
-
+        /// <param name="dt"></param>
+        /// <returns></returns>
         internal static DataTable AddNewEmptyDataRow(DataTable dt)
         {
             //use the NewRow to create a DataRow.
@@ -254,12 +141,14 @@ namespace SPCReportingTool.Classes
             return dt;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// GetDatatermUsers Method
+        /// Retrieve the list of the users present in the dataterm DB (with Eolane ID)
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
+        /// <returns>
+        /// DataTable with the list of possible users
+        /// </returns>
         internal static DataTable GetDatatermUsers()
         {
             String query = $@"
@@ -273,12 +162,14 @@ namespace SPCReportingTool.Classes
             return data;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// GetInspectionTypes Method
+        /// Retrieve the list of the inspection types present in the SPC reports datsbase
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
+        /// <returns>
+        /// DataTable with the list of possible inspection types
+        /// </returns>
         internal static DataTable GetInspectionTypes()
         {
             String query = $@"
@@ -292,12 +183,14 @@ namespace SPCReportingTool.Classes
             return data;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// GetManufacturingSteps Method
+        /// Retrieve the list of the Manufacturing Steps present in the SPC reports datsbase
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
+        /// <returns>
+        /// DataTable with the list of possible Manufacturing Steps
+        /// </returns>
         internal static DataTable GetManufacturingSteps()
         {
             String query = $@"
@@ -311,18 +204,19 @@ namespace SPCReportingTool.Classes
             return data;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// GetErrorTypes Method
+        /// Retrieve the list of the Error Types present in the SPC reports datsbase
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
-        internal static DataTable GetErrorTypes(int inspectionID)
+        /// <returns>
+        /// DataTable with the list of possible Error Types
+        /// </returns>
+        internal static DataTable GetErrorTypes()
         {
             String query = $@"
                 SELECT *
-                FROM Errors
-                WHERE InspectionID = " + inspectionID.ToString();
+                FROM Errors";
 
             query = query.Replace("\r\n", "");
 
@@ -331,12 +225,15 @@ namespace SPCReportingTool.Classes
             return data;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// GetProductionOrders Method
+        /// Retrieve the list of production orders available for a specified product
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
+        /// <param name="material"></param>
+        /// <returns>
+        /// DataTable with the list of Production Orders
+        /// </returns>
         internal static DataTable GetProductionOrders(string material)
         {
             String query = $@"
@@ -351,88 +248,131 @@ namespace SPCReportingTool.Classes
             return data;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// GetReports Method
+        /// Retrieve the last reports from the SPC reports database
+        /// The number of report is limited to the number of Top Rows and they should match the criterias included in the parameters
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
-        internal static DataTable GetReports()
+        /// <param name="topRows"></param>
+        /// <param name="parameters"></param>
+        /// <returns>
+        /// DataTable with the last reports matching the criterias in the parameters
+        /// </returns>
+        internal static DataTable GetReports(int topRows, Dictionary<string, object>? parameters = null)
         {
-            String query = $@"
-                SELECT *
-                FROM ReportsView
-                WHERE StartDate > DATEADD(D, -7, GETDATE())";
+            SQLProcedures.ProcedureInfo procedure = SQLProcedures.GetReports;
 
-            query = query.Replace("\r\n", "");
+            Dictionary<string, object> procedureParameters = parameters ?? new Dictionary<string, object>();
+            procedureParameters.Add("TopRows", topRows);
 
-            DataTable data = ExecuteSQLQuery(query, Globals.SQLLogins["SPCReports"]);
+            // Specifing in which language the App is
+            if (Globals.englishMode)
+            {
+                procedureParameters.Add("Language", "en");
+            }
+            else
+            {
+                procedureParameters.Add("Language", "ru");
+            }
+
+            DataTable data = ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure, procedureParameters);
 
             return data;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// GetDefectsFromReport Method
+        /// Retrieve all the defects related to the specified report ID
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
+        /// <param name="reportId"></param>
+        /// <returns>
+        /// DataTable with all the defects found
+        /// </returns>
         internal static DataTable GetDefectsFromReport(int reportId)
         {
-            String query = $@"
-                SELECT ManufacturingStep, ErrorType, ErrorCode, Reference, Comment
-                FROM DefectsView
-                WHERE ReportID = " + reportId.ToString();
+            SQLProcedures.ProcedureInfo procedure = SQLProcedures.GetDefectsFromReport;
 
-            query = query.Replace("\r\n", "");
+            Dictionary<string, object> procedureParameters = new Dictionary<string, object>();
+            procedureParameters.Add("ReportID", reportId);
 
-            DataTable data = ExecuteSQLQuery(query, Globals.SQLLogins["SPCReports"]);
+            if (Globals.englishMode)
+            {
+                procedureParameters.Add("Language", "en");
+            }
+            else
+            {
+                procedureParameters.Add("Language", "ru");
+            }
+
+            DataTable data = ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure, procedureParameters);
 
             return data;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// RequestLogin Method
+        /// Send the hash of the password entered by the user for comparaison with the value in the DB
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
+        /// <param name="password"></param>
+        /// <returns>
+        /// Result of the comparaison as a int (1 if success, 0 if fail)
+        /// </returns>
+        internal static int RequestLogin(string password)
+        {
+            SQLProcedures.ProcedureInfo procedure = SQLProcedures.RequestLogin;
+
+            Dictionary<string, object> procedureParameters = new Dictionary<string, object>();
+            procedureParameters.Add("PasswordHash", password);
+
+            DataTable data = ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure, procedureParameters);
+
+            return (int)data.Rows[0][0];
+        }
+
+
+        /// <summary>
+        /// InsertNewReport Method
+        /// Insert the header information in the SPC report Database
+        /// </summary>
+        /// <param name="report"></param>
+        /// <returns>
+        /// The ID of the new report created as an int
+        /// </returns>
         internal static int InsertNewReport(HeaderForm report)
         {
             SQLProcedures.ProcedureInfo procedure = SQLProcedures.InsertNewReport;
 
             Dictionary<string, object> procedureParameters = new Dictionary<string, object>();
-            procedureParameters.Add("StartDate", report.startDate);
-            procedureParameters.Add("InspectorID", report.userID);
-            procedureParameters.Add("InspectorName", report.userName);
-            procedureParameters.Add("InspectionID", report.inspectionID);
-            procedureParameters.Add("ProductCode", report.productCode);
-            procedureParameters.Add("ProductionOrder", report.productionOrder);
-            procedureParameters.Add("ProductionOrderQty", report.productionOrderQty);
-            procedureParameters.Add("QtyChecked", report.qtyChecked);
-            procedureParameters.Add("QtyDefective", report.qtyDefective);
-            procedureParameters.Add("EndTime", report.endDate);
+            procedureParameters.Add("StartDate", report.StartDate);
+            procedureParameters.Add("InspectorID", report.UserID);
+            procedureParameters.Add("InspectorName", report.UserName);
+            procedureParameters.Add("InspectionID", report.InspectionID);
+            procedureParameters.Add("ProductCode", report.ProductCode);
+            procedureParameters.Add("ProductionOrder", report.ProductionOrder);
+            procedureParameters.Add("ProductionOrderQty", report.ProductionOrderQty);
+            procedureParameters.Add("QtyChecked", report.QtyChecked);
+            procedureParameters.Add("QtyDefective", report.QtyDefective);
+            procedureParameters.Add("EndTime", report.EndDate);
 
             DataTable data = ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure, procedureParameters);
 
             int reportId = 0;
-            /*
-            foreach(DataRow dr in data.Rows)
-            {
-                reportId = (int)dr[0];
-            }*/
 
             reportId = (int)(Decimal)data.Rows[0][0];
 
             return reportId;
         }
 
+
         /// <summary>
-        /// Method to retriev the open tickets present in the OsTicket DB.
-        /// The Department should be specified
+        /// InsertNewDefect Method
+        /// Insert a new defect which will be related to the specified report ID
         /// </summary>
-        /// <param name="Department"></param>
-        /// <returns>A dictionnary with the list of open tickets. The key is the ticket ID</returns>
+        /// <param name="reportId"></param>
+        /// <param name="defect"></param>
         internal static void InsertNewDefect(int reportId, DataRow defect)
         {
             SQLProcedures.ProcedureInfo procedure = SQLProcedures.InsertNewDefect;
@@ -441,9 +381,67 @@ namespace SPCReportingTool.Classes
             procedureParameters.Add("@ReportID", reportId);
             procedureParameters.Add("@ManufacturingStepID", defect["ManufacturingStepID"]);
             procedureParameters.Add("@ErrorID", defect["ErrorID"]);
-            procedureParameters.Add("@ErrorCode", defect["ErrorCode"]);
+            procedureParameters.Add("@DefectCode", defect["DefectCode"]);
             procedureParameters.Add("@Reference", defect["Reference"]);
             procedureParameters.Add("@Comment", defect["Comment"]);
+
+            ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure, procedureParameters);
+        }
+
+
+        /// <summary>
+        /// UpdateReport Method
+        /// Update the header information of a report
+        /// </summary>
+        /// <param name="report"></param>
+        internal static void UpdateReport(HeaderForm report)
+        {
+            SQLProcedures.ProcedureInfo procedure = SQLProcedures.UpdateReport;
+
+            Dictionary<string, object> procedureParameters = new Dictionary<string, object>();
+            procedureParameters.Add("ReportId", report.ReportId);
+            procedureParameters.Add("StartDate", report.StartDate);
+            procedureParameters.Add("InspectorID", report.UserID);
+            procedureParameters.Add("InspectorName", report.UserName);
+            procedureParameters.Add("InspectionID", report.InspectionID);
+            procedureParameters.Add("ProductCode", report.ProductCode);
+            procedureParameters.Add("ProductionOrder", report.ProductionOrder);
+            procedureParameters.Add("ProductionOrderQty", report.ProductionOrderQty);
+            procedureParameters.Add("QtyChecked", report.QtyChecked);
+            procedureParameters.Add("QtyDefective", report.QtyDefective);
+            procedureParameters.Add("EndTime", report.EndDate);
+
+            ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure, procedureParameters);
+        }
+
+
+        /// <summary>
+        /// DeleteReport Method
+        /// Delete the report with the provided ID from the SPC report Database
+        /// </summary>
+        /// <param name="reportId"></param>
+        internal static void DeleteReport(int reportId)
+        {
+            SQLProcedures.ProcedureInfo procedure = SQLProcedures.DeleteReport;
+
+            Dictionary<string, object> procedureParameters = new Dictionary<string, object>();
+            procedureParameters.Add("ReportId", reportId);
+
+            ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure, procedureParameters);
+        }
+
+
+        /// <summary>
+        /// DeleteAllDefects Method
+        /// Delete all the defects related to the provided ID from the SPC report Database
+        /// </summary>
+        /// <param name="reportId"></param>
+        internal static void DeleteAllDefects(int reportId)
+        {
+            SQLProcedures.ProcedureInfo procedure = SQLProcedures.DeleteAllDefects;
+
+            Dictionary<string, object> procedureParameters = new Dictionary<string, object>();
+            procedureParameters.Add("ReportId", reportId);
 
             ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure, procedureParameters);
         }

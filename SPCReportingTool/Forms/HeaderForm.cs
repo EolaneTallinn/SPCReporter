@@ -933,7 +933,7 @@ namespace SPCReportingTool.Forms
         private void RefreshDefectInfo(DataRow newDefect, DataRow newDefectView)
         {
             //Update defect count label
-            this.lbl_DefectCount.Text = this.Defects.Rows.Count.ToString() + " defect(s) registered";
+            this.lbl_DefectCount.Text = this.Defects.Rows.Count.ToString() + Resources.String.DefectCountLbl;
 
             //This index is just an aid for the operator. It will not be added to the SPCReports Database
             newDefectView[Resources.String.DefectViewerCol1] = this.Defects.Rows.Count.ToString();

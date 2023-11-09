@@ -70,6 +70,7 @@ namespace SPCReportingTool.Forms
             cmbbx_Reference.FormattingEnabled = true;
             cmbbx_Reference.Name = "cmbbx_Reference";
             cmbbx_Reference.SelectedIndexChanged += cmbbx_Reference_SelectedIndexChanged;
+            cmbbx_Reference.LostFocus += cmbbx_Reference_LostFocus;
             // 
             // lbl_Step
             // 

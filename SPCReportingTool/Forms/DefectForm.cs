@@ -44,11 +44,11 @@ namespace SPCReportingTool.Forms
             this._errTypes = DatabaseManager.GetErrorTypes();
             this.cmbbx_ErrorType.Enabled = false;
 
-            this._references = DatabaseManager.GetInspectionTypes();
-            DataTable referencesDataSource = DatabaseManager.AddNewEmptyDataRow(this._references);
-            this.cmbbx_Reference.DataSource = referencesDataSource;
-            this.cmbbx_Reference.DisplayMember = referencesDataSource.Columns[Resources.String.DBNameColumn]?.ToString();
-            this.cmbbx_Reference.ValueMember = referencesDataSource.Columns["InspectionID"]?.ToString();
+            this._references = new DataTable();
+            //DataTable referencesDataSource = DatabaseManager.AddNewEmptyDataRow(this._references);
+            //this.cmbbx_Reference.DataSource = referencesDataSource;
+            //this.cmbbx_Reference.DisplayMember = referencesDataSource.Columns[Resources.String.DBNameColumn]?.ToString();
+            //this.cmbbx_Reference.ValueMember = referencesDataSource.Columns["InspectionID"]?.ToString();
         }
 
 
@@ -80,11 +80,11 @@ namespace SPCReportingTool.Forms
             this._errTypes = DatabaseManager.GetErrorTypes();
             this.cmbbx_ErrorType.Enabled = false;
 
-            this._references = DatabaseManager.GetInspectionTypes();
-            DataTable referencesDataSource = DatabaseManager.AddNewEmptyDataRow(this._references);
-            this.cmbbx_Reference.DataSource = referencesDataSource;
-            this.cmbbx_Reference.DisplayMember = referencesDataSource.Columns[Resources.String.DBNameColumn]?.ToString();
-            this.cmbbx_Reference.ValueMember = referencesDataSource.Columns["InspectionID"]?.ToString();
+            this._references = new DataTable();
+            //DataTable referencesDataSource = DatabaseManager.AddNewEmptyDataRow(this._references);
+            //this.cmbbx_Reference.DataSource = referencesDataSource;
+            //this.cmbbx_Reference.DisplayMember = referencesDataSource.Columns[Resources.String.DBNameColumn]?.ToString();
+            //this.cmbbx_Reference.ValueMember = referencesDataSource.Columns["InspectionID"]?.ToString();
 
             LoadData(defectView);
 
@@ -144,6 +144,20 @@ namespace SPCReportingTool.Forms
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void cmbbx_Reference_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            RefreshReferenceInfo();
+            this.btn_AddDefect.Enabled = CheckData();
+        }
+
+
+        /// <summary>
+        /// cmbbx_Reference_LostFocus Event Handler
+        /// Triggered when the Reference combobox lose focus
+        /// Will refresh the Reference info and check if the defect data is valid
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cmbbx_Reference_LostFocus(object sender, EventArgs e)
         {
             RefreshReferenceInfo();
             this.btn_AddDefect.Enabled = CheckData();
@@ -243,7 +257,7 @@ namespace SPCReportingTool.Forms
         {
             try
             {
-                this.CurrentDefect["Reference"] = int.Parse(cmbbx_Reference.SelectedValue?.ToString() ?? "-1");
+                this.CurrentDefect["Reference"] = cmbbx_Reference.Text?.ToString() ?? String.Empty;
             }
             catch
             {

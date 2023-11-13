@@ -35,6 +35,8 @@ namespace SPCReportingTool.Forms
             this.Selection = null;
 
             AutoSizeDataGV(this.dataGV_Selection, AutoSizeModes.Evenly);
+
+            this.btn_Select.Select();
         }
         #endregion
 

@@ -164,23 +164,29 @@
   <data name="dateTime_StartDate.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
+  <data name="lbl_EndDateInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="lbl_EndDateInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 89</value>
+    <value>306, 77</value>
   </data>
   <data name="lbl_EndDateInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 15</value>
+    <value>68, 35</value>
   </data>
   <data name="lbl_EndDateInput.Text" xml:space="preserve">
-    <value>Дата конца</value>
+    <value>Время окончания</value>
+  </data>
+  <data name="lbl_EndDateInput.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="lbl_StartDateInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 42</value>
+    <value>290, 42</value>
   </data>
   <data name="lbl_StartDateInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 15</value>
+    <value>84, 15</value>
   </data>
   <data name="lbl_StartDateInput.Text" xml:space="preserve">
-    <value>Дата начала</value>
+    <value>Время начала</value>
   </data>
   <data name="btn_CheckProdOrder.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -236,6 +242,30 @@
   <data name="txtbx_ProductCode.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
+  <data name="lbl_QtyDefectiveValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 217</value>
+  </data>
+  <data name="lbl_QtyCheckedValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 189</value>
+  </data>
+  <data name="lbl_ProdOrderValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 161</value>
+  </data>
+  <data name="lbl_ProductCodeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 132</value>
+  </data>
+  <data name="lbl_InspectionTypeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 105</value>
+  </data>
+  <data name="lbl_InspectorNameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 77</value>
+  </data>
+  <data name="lbl_InspectorIDValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 49</value>
+  </data>
+  <data name="lbl_StartDateValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 22</value>
+  </data>
   <data name="lbl_QtyDefective.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 15</value>
   </data>
@@ -279,10 +309,13 @@
     <value>ID инспектора:</value>
   </data>
   <data name="lbl_StartDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 15</value>
+    <value>90, 15</value>
   </data>
   <data name="lbl_StartDate.Text" xml:space="preserve">
-    <value>Дата начала:</value>
+    <value>Время начала:</value>
+  </data>
+  <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>525</value>
   </data>
   <data name="splitContainer2.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>

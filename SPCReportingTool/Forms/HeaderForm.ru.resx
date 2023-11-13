@@ -119,13 +119,13 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lbl_ReportID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 9</value>
+    <value>66, 9</value>
   </data>
   <data name="lbl_ReportID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 15</value>
+    <value>60, 15</value>
   </data>
   <data name="lbl_ReportID.Text" xml:space="preserve">
-    <value>ИД Отчёта:</value>
+    <value>ID отчёта:</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lbl_BatchQtyInput.AutoSize" type="System.Boolean, mscorlib">
@@ -138,7 +138,7 @@
     <value>59, 34</value>
   </data>
   <data name="lbl_BatchQtyInput.Text" xml:space="preserve">
-    <value>Кол-во Заказа</value>
+    <value>Размер партии</value>
   </data>
   <data name="lbl_BatchQtyInput.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -152,38 +152,56 @@
   <data name="lbl_ProdOrderInput.Text" xml:space="preserve">
     <value>Заказ</value>
   </data>
+  <data name="txtbx_BatchQty.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtbx_ProdOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dateTime_EndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="dateTime_StartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="lbl_EndDateInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>305, 89</value>
   </data>
   <data name="lbl_EndDateInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 15</value>
+    <value>68, 15</value>
   </data>
   <data name="lbl_EndDateInput.Text" xml:space="preserve">
-    <value>Дата Конца</value>
+    <value>Дата конца</value>
   </data>
   <data name="lbl_StartDateInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>298, 42</value>
   </data>
   <data name="lbl_StartDateInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 15</value>
+    <value>74, 15</value>
   </data>
   <data name="lbl_StartDateInput.Text" xml:space="preserve">
-    <value>Дата Начала</value>
+    <value>Дата начала</value>
+  </data>
+  <data name="btn_CheckProdOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="btn_CheckProdOrder.Text" xml:space="preserve">
-    <value>Найти Заказы</value>
+    <value>Найти заказы</value>
+  </data>
+  <data name="cmbbx_InspectionType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="lbl_QtyCheckedInput.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="lbl_QtyCheckedInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 189</value>
+    <value>3, 189</value>
   </data>
   <data name="lbl_QtyCheckedInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 35</value>
+    <value>123, 35</value>
   </data>
   <data name="lbl_QtyCheckedInput.Text" xml:space="preserve">
-    <value>Проверенное Количество</value>
+    <value>Проверенное кол-во</value>
   </data>
   <data name="lbl_QtyCheckedInput.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -191,29 +209,32 @@
   <data name="lbl_ProductCodeInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>44, 127</value>
   </data>
-  <data name="lbl_ProductCodeInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 15</value>
-  </data>
   <data name="lbl_ProductCodeInput.Text" xml:space="preserve">
-    <value>Код Продукта</value>
+    <value>Код продукта</value>
   </data>
   <data name="lbl_InspectionTypeInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>42, 86</value>
   </data>
   <data name="lbl_InspectionTypeInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 15</value>
+    <value>82, 15</value>
   </data>
   <data name="lbl_InspectionTypeInput.Text" xml:space="preserve">
-    <value>Тип Контроли</value>
+    <value>Тип контроля</value>
   </data>
   <data name="lbl_InspectorIDInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 42</value>
+    <value>41, 42</value>
   </data>
   <data name="lbl_InspectorIDInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 15</value>
+    <value>85, 15</value>
   </data>
   <data name="lbl_InspectorIDInput.Text" xml:space="preserve">
-    <value>ИД Инспектора</value>
+    <value>ID инспектора</value>
+  </data>
+  <data name="txtbx_QtyChecked.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtbx_ProductCode.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="lbl_QtyDefective.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 15</value>
@@ -222,10 +243,10 @@
     <value>Кол-во дефектных:</value>
   </data>
   <data name="lbl_QtyChecked.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 15</value>
+    <value>132, 15</value>
   </data>
   <data name="lbl_QtyChecked.Text" xml:space="preserve">
-    <value>Провер. Кол-во:</value>
+    <value>Проверенное кол-во:</value>
   </data>
   <data name="lbl_ProdOrder.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 15</value>
@@ -234,43 +255,52 @@
     <value>Заказ:</value>
   </data>
   <data name="lbl_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 15</value>
+    <value>87, 15</value>
   </data>
   <data name="lbl_ProductCode.Text" xml:space="preserve">
-    <value>Код Продукта:</value>
+    <value>Код продукта:</value>
   </data>
   <data name="lbl_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 15</value>
+    <value>88, 15</value>
   </data>
   <data name="lbl_InspectionType.Text" xml:space="preserve">
-    <value>Тип Контроли:</value>
+    <value>Тип контроля:</value>
   </data>
   <data name="lbl_InspectorName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 15</value>
+    <value>105, 15</value>
   </data>
   <data name="lbl_InspectorName.Text" xml:space="preserve">
-    <value>Имя Инспектора:</value>
+    <value>Имя инспектора:</value>
   </data>
   <data name="lbl_InspectorID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 15</value>
+    <value>93, 15</value>
   </data>
   <data name="lbl_InspectorID.Text" xml:space="preserve">
-    <value>ИД Инспектора:</value>
+    <value>ID инспектора:</value>
   </data>
   <data name="lbl_StartDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 15</value>
+    <value>78, 15</value>
   </data>
   <data name="lbl_StartDate.Text" xml:space="preserve">
-    <value>Дата Начала:</value>
+    <value>Дата начала:</value>
+  </data>
+  <data name="splitContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btn_Delete.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="btn_Delete.Text" xml:space="preserve">
     <value>Удалить</value>
+  </data>
+  <data name="dataGV_Defects.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="btn_NoDefect.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 23</value>
   </data>
   <data name="btn_NoDefect.Text" xml:space="preserve">
-    <value>Без Дефектов</value>
+    <value>Без дефектов</value>
   </data>
   <data name="lbl_DefectCount.Location" type="System.Drawing.Point, System.Drawing">
     <value>659, 13</value>
@@ -279,7 +309,13 @@
     <value>179, 15</value>
   </data>
   <data name="lbl_DefectCount.Text" xml:space="preserve">
-    <value>0 зарегистрировано дефект(ов)</value>
+    <value>Зарегистрировано дефектов:  0</value>
+  </data>
+  <data name="btn_DeleteDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn_AddDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="btn_SendData.Location" type="System.Drawing.Point, System.Drawing">
     <value>679, 265</value>
@@ -287,10 +323,16 @@
   <data name="btn_SendData.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 23</value>
   </data>
+  <data name="btn_SendData.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
   <data name="btn_SendData.Text" xml:space="preserve">
     <value>Отправить</value>
   </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Главные Информаций</value>
+    <value>Данные проверки</value>
   </data>
 </root>

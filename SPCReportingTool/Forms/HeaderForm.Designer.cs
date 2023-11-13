@@ -194,7 +194,6 @@ namespace SPCReportingTool.Forms
             resources.ApplyResources(dateTime_EndDate, "dateTime_EndDate");
             dateTime_EndDate.Format = DateTimePickerFormat.Custom;
             dateTime_EndDate.Name = "dateTime_EndDate";
-            dateTime_EndDate.Value = new DateTime(2023, 10, 18, 14, 30, 29, 310);
             dateTime_EndDate.ValueChanged += dateTime_EndDate_ValueChanged;
             // 
             // dateTime_StartDate
@@ -262,6 +261,7 @@ namespace SPCReportingTool.Forms
             resources.ApplyResources(txtbx_ProductCode, "txtbx_ProductCode");
             txtbx_ProductCode.Name = "txtbx_ProductCode";
             txtbx_ProductCode.TextChanged += txtbx_ProductCode_TextChanged;
+            txtbx_ProductCode.GotFocus += txtbx_ProductCode_GotFocus;
             txtbx_ProductCode.LostFocus += txtbx_ProductCode_LostFocus;
             // 
             // txtbx_InspectorID

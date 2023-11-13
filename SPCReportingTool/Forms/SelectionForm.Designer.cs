@@ -63,6 +63,7 @@ namespace SPCReportingTool.Forms
             // 
             // SelectionForm
             // 
+            AcceptButton = btn_Select;
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(btn_Select);

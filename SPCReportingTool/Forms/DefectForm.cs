@@ -117,6 +117,11 @@ namespace SPCReportingTool.Forms
         /// <param name="e"></param>
         private void cmbbx_Step_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (cmbbx_ErrorType.Enabled)
+            {
+                cmbbx_ErrorType.SelectedIndex = 0;
+            }
+
             RefreshManufacturingStepInfo();
             this.btn_AddDefect.Enabled = CheckData();
         }
@@ -358,16 +363,16 @@ namespace SPCReportingTool.Forms
             #region Reference
             try
             {
-                reference = (string)this.CurrentDefect["Reference"];
+                //reference = (string)(this.CurrentDefect["Reference"] ?? String.Empty);
 
-                if (reference == string.Empty)
-                {
-                    return false;
-                }
+                //if (reference == string.Empty)
+                //{
+                //    return false;
+                //}
             }
             catch
             {
-                return false;
+                //return false;
             }
             #endregion
 

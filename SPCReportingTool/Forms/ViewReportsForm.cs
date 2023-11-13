@@ -37,12 +37,16 @@ namespace SPCReportingTool.Forms
             // Inserting date filter options
             this.cmbbx_DateSelection.Items.Add(Resources.String.NoDateFilter);
             this.cmbbx_DateSelection.Items.Add(Resources.String.StartDateFilter);
-            this.cmbbx_DateSelection.Items.Add(Resources.String.EndDateFilter);
+            //this.cmbbx_DateSelection.Items.Add(Resources.String.EndDateFilter); //Not needed according to Leonid
             this.cmbbx_DateSelection.SelectedIndex = 0;
 
             // Disable datetime picker elements (No date filter enabled by default)
             this.dateTime_From.Enabled = false;
             this.dateTime_To.Enabled = false;
+
+            // Set Date and time search value to today 00:00 (Start) and 23:59 (End)
+            this.dateTime_From.Value = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0);
+            this.dateTime_To.Value = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 23, 59, 59);
 
             // Search by inspector name by default
             this.rbtn_InspectorName.Checked = true;
@@ -54,6 +58,13 @@ namespace SPCReportingTool.Forms
             this.cmbbx_InspectionType.DataSource = inspTypesDataSource;
             this.cmbbx_InspectionType.DisplayMember = inspTypesDataSource.Columns[Resources.String.DBNameColumn]?.ToString();
             this.cmbbx_InspectionType.ValueMember = inspTypesDataSource.Columns[Resources.String.DBNameColumn]?.ToString();
+
+            // Get List of inspection types and insert them in the corresponding combo box
+            this._inspectors = DatabaseManager.GetAllInspectors();
+            DataTable inspectorsDataSource = DatabaseManager.AddNewEmptyDataRow(this._inspectors);
+            this.cmbbx_Inspector.DataSource = inspectorsDataSource;
+            this.cmbbx_Inspector.DisplayMember = inspectorsDataSource.Columns["InspectorName"]?.ToString();
+            this.cmbbx_Inspector.ValueMember = inspectorsDataSource.Columns["InspectorName"]?.ToString();
 
             //Get the last 100 reports
             this._reports = DatabaseManager.GetReports(100);
@@ -79,6 +90,8 @@ namespace SPCReportingTool.Forms
         private DataTable _defects;
 
         private DataTable _inspTypes;
+
+        private DataTable _inspectors;
 
         private int _selectedRowIndex;
 
@@ -142,6 +155,76 @@ namespace SPCReportingTool.Forms
                 //Disable if no date filtering is selected
                 this.dateTime_From.Enabled = false;
                 this.dateTime_To.Enabled = false;
+            }
+        }
+
+
+
+        /// <summary>
+        /// cmbbx_DateSelection_SelectedIndexChanged Event Handler
+        /// Triggered when a new item is selected in the Date combo box
+        /// Enable or disable the datetime picker based on the selected date filter
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void chсkbx_DateFilter_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.chсkbx_DateFilter.Checked)
+            {
+                //Enable if filtering by Start Date or End Date
+                this.dateTime_From.Enabled = true;
+                this.dateTime_To.Enabled = true;
+            }
+            else
+            {
+                //Disable if no date filtering is selected
+                this.dateTime_From.Enabled = false;
+                this.dateTime_To.Enabled = false;
+            }
+        }
+
+
+
+        /// <summary>
+        /// rbtn_InspectorID_CheckedChanged Event Handler
+        /// Triggered when the Inspector ID radio button is checked or unchecked
+        /// When checked, update the item list in the combo box for inspector selection with available inspector ID
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void rbtn_InspectorID_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.rbtn_InspectorID.Checked)
+            {
+                this._inspectors = DatabaseManager.GetAllInspectors();
+                DataTable inspectorsDataSource = DatabaseManager.AddNewEmptyDataRow(this._inspectors);
+                this.cmbbx_Inspector.DataSource = inspectorsDataSource;
+                this.cmbbx_Inspector.DisplayMember = inspectorsDataSource.Columns["InspectorID"]?.ToString();
+                this.cmbbx_Inspector.ValueMember = inspectorsDataSource.Columns["InspectorID"]?.ToString();
+
+                this.cmbbx_Inspector.SelectedIndex = 0;
+            }
+        }
+
+
+        /// <summary>
+        /// rbtn_InspectorName_CheckedChanged Event Handler
+        /// Triggered when the Inspector Name radio button is checked or unchecked
+        /// When checked, update the item list in the combo box for inspector selection with available inspector Name
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void rbtn_InspectorName_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.rbtn_InspectorName.Checked)
+            {
+                this._inspectors = DatabaseManager.GetAllInspectors();
+                DataTable inspectorsDataSource = DatabaseManager.AddNewEmptyDataRow(this._inspectors);
+                this.cmbbx_Inspector.DataSource = inspectorsDataSource;
+                this.cmbbx_Inspector.DisplayMember = inspectorsDataSource.Columns["InspectorName"]?.ToString();
+                this.cmbbx_Inspector.ValueMember = inspectorsDataSource.Columns["InspectorName"]?.ToString();
+
+                this.cmbbx_Inspector.SelectedIndex = 0;
             }
         }
 
@@ -212,7 +295,7 @@ namespace SPCReportingTool.Forms
 
                 //Remove edit button column
                 this.dataGV_Reports.Columns.RemoveAt(0);
-                
+
                 //Remove events
                 this.dataGV_Reports.CellDoubleClick -= dataGV_Reports_CellDoubleClick;
                 this.dataGV_Reports.CellContentClick -= dataGV_Reports_CellContentClick;
@@ -350,6 +433,14 @@ namespace SPCReportingTool.Forms
             }
             #endregion
 
+            #region Date
+            else if (this.chсkbx_DateFilter.Checked)
+            {
+                parameters.Add("DateFrom", this.dateTime_From.Value);
+                parameters.Add("DateTo", this.dateTime_To.Value);
+            }
+            #endregion
+
             #region Report ID
             if (this.txtbx_ReportID.Text != String.Empty)
             {
@@ -358,15 +449,15 @@ namespace SPCReportingTool.Forms
             #endregion
 
             #region Inspector
-            if (this.txtbx_Inspector.Text != String.Empty)
+            if (this.cmbbx_Inspector.Text != String.Empty)
             {
                 if (this.rbtn_InspectorID.Checked)
                 {
-                    parameters.Add("InspectorID", this.txtbx_Inspector.Text);
+                    parameters.Add("InspectorID", this.cmbbx_Inspector.Text);
                 }
                 else
                 {
-                    parameters.Add("InspectorName", this.txtbx_Inspector.Text);
+                    parameters.Add("InspectorName", this.cmbbx_Inspector.Text);
                 }
             }
             #endregion
@@ -407,5 +498,6 @@ namespace SPCReportingTool.Forms
             AutoSizeDataGV(this.dataGV_Reports, 0);
         }
         #endregion
+
     }
 }

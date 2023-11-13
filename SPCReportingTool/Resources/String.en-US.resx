@@ -202,7 +202,7 @@
     <comment>Name of the DB field for Manufacturing Step</comment>
   </data>
   <data name="DefectCountLbl" xml:space="preserve">
-    <value>defect(s) registered</value>
+    <value>Defects registered: </value>
     <comment>Number of registered defect indication</comment>
   </data>
   <data name="DefectViewerCol1" xml:space="preserve">
@@ -254,7 +254,7 @@
     <comment>Text written on the edit mode button when the edit mode is active</comment>
   </data>
   <data name="HeaderEditTitle" xml:space="preserve">
-    <value>Report Header - Report</value>
+    <value>Inspection Data - Report</value>
     <comment>Title of the header form window in edition mode</comment>
   </data>
   <data name="NoDateFilter" xml:space="preserve">
@@ -262,7 +262,7 @@
     <comment>No Date Filter Item for date filtering</comment>
   </data>
   <data name="NoDefectLbl" xml:space="preserve">
-    <value>0 defect(s) registered</value>
+    <value>Defects registered: 0</value>
     <comment>No registered defect indication</comment>
   </data>
   <data name="NoDefectSelectedErr" xml:space="preserve">
@@ -270,7 +270,7 @@
     <comment>Error thrown when no defects are selected but defect action is requested</comment>
   </data>
   <data name="NoOrderErr" xml:space="preserve">
-    <value>No orders found for the product</value>
+    <value>No orders found for the product </value>
     <comment>Error thrown when no orders are found for the specified product</comment>
   </data>
   <data name="NoProductSelectedErr" xml:space="preserve">
@@ -281,8 +281,12 @@
     <value>No row selected. Please select an row</value>
     <comment>Error thrown when no rows are selected and selection is requested</comment>
   </data>
+  <data name="OrderForm" xml:space="preserve">
+    <value>Orders</value>
+    <comment>Title of the order form</comment>
+  </data>
   <data name="RemoveAllDefectConf" xml:space="preserve">
-    <value>This action will remove all the defects that you have registered and it cannot be undone.</value>
+    <value>All the defects will be removed and it will not be possible to undo this action.</value>
     <comment>Confirmation message when trying to remove all the defects</comment>
   </data>
   <data name="SendDataConf" xml:space="preserve">

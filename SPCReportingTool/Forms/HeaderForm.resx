@@ -117,532 +117,395 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lbl_QtyDefectiveValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_StartDateInput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyDefective.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_DeleteDefect.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lbl_EndDateInput.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lbl_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 15</value>
-  </data>
-  <data name="txtbx_QtyChecked.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 23</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCode.Name" xml:space="preserve">
-    <value>lbl_ProductCode</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorIDValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_QtyChecked.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 15</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer2</value>
-  </data>
-  <data name="&gt;&gt;btn_DeleteDefect.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="lbl_ReportID.Text" xml:space="preserve">
-    <value>Report ID:</value>
-  </data>
-  <data name="btn_AddDefect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>148, 5</value>
-  </data>
-  <data name="btn_DeleteDefect.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="&gt;&gt;btn_CheckProdOrder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lbl_QtyDefective.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_InspectorID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 15</value>
-  </data>
-  <data name="txtbx_InspectorID.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_InspectionType.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="lbl_InspectorIDValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_InspectionType.Text" xml:space="preserve">
-    <value>Inspection Type:</value>
-  </data>
-  <data name="lbl_StartDate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_StartDateInput.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtbx_BatchQty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 23</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCode.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="lbl_BatchQtyInput.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lbl_DefectCount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;dateTime_EndDate.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lbl_QtyChecked.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportIdValue.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionTypeValue.Name" xml:space="preserve">
-    <value>lbl_InspectionTypeValue</value>
-  </data>
-  <data name="btn_NoDefect.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyCheckedValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_StartDateValue.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="lbl_InspectorName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 15</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Defects.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lbl_EndDateInput.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtbx_ProdOrder.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btn_Delete.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDate.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btn_SendData.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="dataGV_Defects.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 34</value>
-  </data>
-  <data name="&gt;&gt;lbl_BatchQtyInput.Name" xml:space="preserve">
-    <value>lbl_BatchQtyInput</value>
-  </data>
-  <data name="lbl_ReportID.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="btn_AddDefect.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
-  <data name="btn_AddDefect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 23</value>
-  </data>
-  <data name="&gt;&gt;txtbx_QtyChecked.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Panel1.Parent" xml:space="preserve">
-    <value>splitContainer2</value>
-  </data>
-  <data name="lbl_InspectorID.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportIdValue.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProdOrderInput.Name" xml:space="preserve">
-    <value>lbl_ProdOrderInput</value>
-  </data>
-  <data name="dateTime_StartDate.CustomFormat" xml:space="preserve">
-    <value>dd.MM.yyyy HH:mm</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="lbl_DefectCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>721, 13</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_SendData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 23</value>
-  </data>
-  <data name="lbl_InspectorID.Text" xml:space="preserve">
-    <value>Inspector ID:</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDateValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDateInput.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="lbl_QtyChecked.Text" xml:space="preserve">
-    <value>Quantity Checked:</value>
-  </data>
-  <data name="btn_AddDefect.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lbl_QtyDefective.Text" xml:space="preserve">
-    <value>Quantity Defective:</value>
-  </data>
-  <data name="&gt;&gt;lbl_EndDateInput.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="lbl_BatchQtyInput.Text" xml:space="preserve">
-    <value>Batch Qty</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportID.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="lbl_ReportIdValue.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btn_CheckProdOrder.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="lbl_DefectCount.Text" xml:space="preserve">
-    <value>0 defect(s) registered</value>
-  </data>
-  <data name="lbl_ProdOrderValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 15</value>
-  </data>
-  <data name="lbl_StartDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_InspectorIDInput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cmbbx_InspectionType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 83</value>
-  </data>
-  <data name="lbl_InspectorID.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtbx_QtyChecked.Name" xml:space="preserve">
-    <value>txtbx_QtyChecked</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtbx_ProdOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>380, 125</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorName.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="lbl_ProdOrderValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorIDInput.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="btn_CheckProdOrder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 23</value>
-  </data>
-  <data name="txtbx_BatchQty.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyCheckedValue.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lbl_QtyChecked.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="lbl_StartDateValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 15</value>
-  </data>
-  <data name="&gt;&gt;btn_NoDefect.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;dateTime_StartDate.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="lbl_ReportIdValue.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProdOrder.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="&gt;&gt;dateTime_StartDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_InspectionTypeInput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyCheckedValue.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>850, 548</value>
-  </data>
-  <data name="lbl_QtyCheckedValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;btn_NoDefect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_InspectorNameValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;txtbx_InspectorID.Name" xml:space="preserve">
-    <value>txtbx_InspectorID</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyDefectiveValue.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorID.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="&gt;&gt;btn_CheckProdOrder.Name" xml:space="preserve">
-    <value>btn_CheckProdOrder</value>
-  </data>
-  <data name="lbl_StartDateValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="btn_NoDefect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCodeInput.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="lbl_InspectorIDValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="lbl_InspectionType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 105</value>
-  </data>
-  <data name="lbl_ProductCodeInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 127</value>
-  </data>
-  <data name="lbl_StartDate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="lbl_InspectorIDInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 15</value>
-  </data>
-  <data name="lbl_InspectorIDValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 49</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorName.Name" xml:space="preserve">
-    <value>lbl_InspectorName</value>
-  </data>
-  <data name="&gt;&gt;btn_Delete.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDateValue.Name" xml:space="preserve">
-    <value>lbl_StartDateValue</value>
-  </data>
-  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>850, 548</value>
-  </data>
-  <data name="lbl_QtyDefective.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="lbl_InspectorName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_StartDateInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 15</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionTypeInput.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="&gt;&gt;lbl_BatchQtyInput.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="lbl_InspectorIDInput.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDateValue.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="lbl_InspectorNameValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_InspectorName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 77</value>
-  </data>
-  <data name="txtbx_ProdOrder.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyCheckedInput.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>244</value>
-  </data>
-  <data name="lbl_QtyChecked.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 189</value>
-  </data>
-  <data name="lbl_InspectionTypeInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 86</value>
-  </data>
-  <data name="lbl_StartDateValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="dateTime_EndDate.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lbl_InspectionTypeValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 105</value>
-  </data>
-  <data name="lbl_StartDateInput.Text" xml:space="preserve">
-    <value>Start Date</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyCheckedValue.Name" xml:space="preserve">
-    <value>lbl_QtyCheckedValue</value>
-  </data>
-  <data name="btn_Delete.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtbx_InspectorID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 39</value>
-  </data>
-  <data name="lbl_ProdOrderInput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtbx_BatchQty.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyChecked.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyDefectiveValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cmbbx_InspectionType.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lbl_ProdOrderInput.Text" xml:space="preserve">
-    <value>Production Order</value>
-  </data>
-  <data name="&gt;&gt;lbl_DefectCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_ProductCodeInput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_ProductCode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_InspectorIDInput.Text" xml:space="preserve">
-    <value>Inspector ID</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorNameValue.Name" xml:space="preserve">
-    <value>lbl_InspectorNameValue</value>
-  </data>
-  <data name="&gt;&gt;dateTime_EndDate.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCodeValue.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lbl_DefectCount.Name" xml:space="preserve">
-    <value>lbl_DefectCount</value>
-  </data>
-  <data name="lbl_QtyDefectiveValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorIDInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_SendData.Name" xml:space="preserve">
-    <value>btn_SendData</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="lbl_InspectionTypeValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 15</value>
-  </data>
   <data name="splitContainer2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;lbl_QtyDefectiveValue.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="lbl_StartDateInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 42</value>
   </data>
-  <data name="&gt;&gt;lbl_InspectionTypeValue.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="lbl_InspectorIDValue.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="lbl_EndDateInput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_ReportIdValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 9</value>
-  </data>
-  <data name="&gt;&gt;dateTime_StartDate.Name" xml:space="preserve">
-    <value>dateTime_StartDate</value>
+  <data name="dateTime_EndDate.CustomFormat" xml:space="preserve">
+    <value>dd.MM.yyyy HH:mm</value>
   </data>
   <data name="&gt;&gt;splitContainer2.Panel2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="lbl_ProdOrderValue.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;lbl_QtyChecked.Name" xml:space="preserve">
+    <value>lbl_QtyChecked</value>
   </data>
-  <data name="&gt;&gt;cmbbx_InspectionType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbl_InspectorName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_CheckProdOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>244</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportIdValue.Name" xml:space="preserve">
+    <value>lbl_ReportIdValue</value>
+  </data>
+  <data name="lbl_StartDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorID.Name" xml:space="preserve">
+    <value>lbl_InspectorID</value>
+  </data>
+  <data name="&gt;&gt;btn_Delete.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_ProdOrderValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 161</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionTypeInput.Name" xml:space="preserve">
+    <value>lbl_InspectionTypeInput</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorID.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 244</value>
+  </data>
+  <data name="btn_CheckProdOrder.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_BatchQtyInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_DefectCount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDateInput.Name" xml:space="preserve">
+    <value>lbl_StartDateInput</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionTypeValue.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrderInput.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="btn_CheckProdOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 154</value>
+  </data>
+  <data name="lbl_DefectCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dateTime_EndDate.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="btn_Delete.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportIdValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTime_StartDate.Name" xml:space="preserve">
+    <value>dateTime_StartDate</value>
+  </data>
+  <data name="&gt;&gt;btn_SendData.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtbx_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyDefective.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_QtyDefective.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 217</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Defects.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProdOrder.Name" xml:space="preserve">
+    <value>txtbx_ProdOrder</value>
+  </data>
+  <data name="lbl_BatchQtyInput.Text" xml:space="preserve">
+    <value>Batch Qty</value>
+  </data>
+  <data name="&gt;&gt;btn_DeleteDefect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbl_ProdOrderValue.Parent" xml:space="preserve">
     <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCodeInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtbx_BatchQty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 23</value>
+  </data>
+  <data name="&gt;&gt;btn_AddDefect.Name" xml:space="preserve">
+    <value>btn_AddDefect</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrder.Name" xml:space="preserve">
+    <value>lbl_ProdOrder</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 548</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDateValue.Name" xml:space="preserve">
+    <value>lbl_StartDateValue</value>
+  </data>
+  <data name="lbl_InspectionTypeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="lbl_StartDateInput.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionTypeInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Name" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="lbl_QtyDefectiveValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 217</value>
+  </data>
+  <data name="lbl_ProdOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 161</value>
+  </data>
+  <data name="lbl_InspectorIDValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 49</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyCheckedInput.Name" xml:space="preserve">
+    <value>lbl_QtyCheckedInput</value>
+  </data>
+  <data name="lbl_InspectionTypeValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_InspectorName.Text" xml:space="preserve">
+    <value>Inspector Name:</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lbl_QtyCheckedInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductCode.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_EndDateInput.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="txtbx_ProdOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 23</value>
+  </data>
+  <data name="lbl_InspectorName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 77</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Name" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="lbl_QtyCheckedValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_InspectorIDValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dateTime_EndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lbl_ReportID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorNameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_DeleteDefect.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ReportIdValue.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btn_Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbl_InspectorNameValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="txtbx_ProdOrder.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_StartDateValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_InspectorID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="lbl_QtyCheckedValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lbl_QtyChecked.Text" xml:space="preserve">
+    <value>Quantity Checked:</value>
+  </data>
+  <data name="btn_DeleteDefect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 5</value>
+  </data>
+  <data name="lbl_InspectionTypeInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dateTime_StartDate.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorNameValue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyDefective.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_EndDateInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="btn_AddDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_ProdOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_ReportID.Text" xml:space="preserve">
+    <value>Report ID:</value>
+  </data>
+  <data name="lbl_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProdOrder.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="cmbbx_InspectionType.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtbx_InspectorID.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_ProductCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_BatchQtyInput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionTypeInput.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionTypeValue.Name" xml:space="preserve">
+    <value>lbl_InspectionTypeValue</value>
+  </data>
+  <data name="&gt;&gt;dateTime_StartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_InspectorName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 15</value>
+  </data>
+  <data name="lbl_StartDateInput.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrderValue.Name" xml:space="preserve">
+    <value>lbl_ProdOrderValue</value>
+  </data>
+  <data name="lbl_StartDateInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_NoDefect.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_StartDateValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="lbl_ProdOrderValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_InspectionTypeInput.Text" xml:space="preserve">
+    <value>Inspection Type</value>
+  </data>
+  <data name="&gt;&gt;dateTime_EndDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_InspectionType.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProdOrder.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyDefective.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="lbl_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 15</value>
+  </data>
+  <data name="lbl_QtyChecked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorName.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="lbl_StartDateInput.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorNameValue.Name" xml:space="preserve">
+    <value>lbl_InspectorNameValue</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ReportID.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="dateTime_StartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 23</value>
+  </data>
+  <data name="lbl_QtyCheckedInput.Text" xml:space="preserve">
+    <value>Quantity Checked</value>
+  </data>
+  <data name="btn_SendData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtbx_InspectorID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_QtyCheckedValue.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;btn_SendData.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -650,752 +513,889 @@
   <data name="txtbx_InspectorID.Size" type="System.Drawing.Size, System.Drawing">
     <value>134, 23</value>
   </data>
-  <data name="lbl_StartDateInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 42</value>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="dateTime_StartDate.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btn_NoDefect.Text" xml:space="preserve">
-    <value>No defect</value>
-  </data>
-  <data name="lbl_ReportID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>67, 9</value>
-  </data>
-  <data name="&gt;&gt;txtbx_QtyChecked.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="lbl_QtyCheckedValue.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyChecked.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dateTime_EndDate.CustomFormat" xml:space="preserve">
-    <value>dd.MM.yyyy HH:mm</value>
-  </data>
-  <data name="dateTime_EndDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 23</value>
-  </data>
-  <data name="lbl_ProdOrder.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbl_ProductCode.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;lbl_QtyDefectiveValue.Name" xml:space="preserve">
-    <value>lbl_QtyDefectiveValue</value>
+  <data name="lbl_InspectorNameValue.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;lbl_StartDateInput.Type" xml:space="preserve">
+  <data name="lbl_ProdOrderInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtbx_BatchQty.Name" xml:space="preserve">
+    <value>txtbx_BatchQty</value>
+  </data>
+  <data name="&gt;&gt;btn_DeleteDefect.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_QtyCheckedInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 15</value>
+  </data>
+  <data name="lbl_ProdOrderValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="txtbx_QtyChecked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 194</value>
+  </data>
+  <data name="dateTime_EndDate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_EndDateInput.Name" xml:space="preserve">
+    <value>lbl_EndDateInput</value>
+  </data>
+  <data name="lbl_InspectionTypeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btn_Delete.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_DeleteDefect.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="lbl_InspectionTypeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtbx_BatchQty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_EndDateInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_ProductCodeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyDefectiveValue.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>HeaderForm</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_AddDefect.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyCheckedValue.Name" xml:space="preserve">
+    <value>lbl_QtyCheckedValue</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDate.Name" xml:space="preserve">
+    <value>lbl_StartDate</value>
+  </data>
+  <data name="lbl_BatchQtyInput.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_InspectorID.Text" xml:space="preserve">
+    <value>Inspector ID:</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorIDInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_QtyDefectiveValue.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Defects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_NoDefect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 5</value>
+  </data>
+  <data name="lbl_InspectionTypeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 105</value>
   </data>
   <data name="lbl_QtyCheckedValue.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 189</value>
   </data>
-  <data name="&gt;&gt;splitContainer2.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="lbl_StartDateValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
   </data>
-  <data name="&gt;&gt;lbl_StartDateValue.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
+  <data name="btn_NoDefect.Text" xml:space="preserve">
+    <value>No defect</value>
   </data>
-  <data name="lbl_EndDateInput.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionTypeInput.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbl_InspectorIDValue.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl_ProdOrderValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txtbx_BatchQty.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
   </data>
   <data name="lbl_QtyDefective.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 15</value>
   </data>
-  <data name="&gt;&gt;lbl_ProductCodeInput.Type" xml:space="preserve">
+  <data name="dataGV_Defects.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btn_NoDefect.Name" xml:space="preserve">
+    <value>btn_NoDefect</value>
+  </data>
+  <data name="lbl_BatchQtyInput.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtbx_InspectorID.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lbl_QtyDefectiveValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_InspectorIDInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 42</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCodeInput.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbl_ProductCodeValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCode.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="lbl_InspectorID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyCheckedValue.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="txtbx_QtyChecked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 23</value>
+  </data>
+  <data name="btn_CheckProdOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btn_Delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 265</value>
+  </data>
+  <data name="lbl_ReportID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionTypeValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ReportID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtbx_BatchQty.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dateTime_EndDate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dateTime_EndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 83</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorNameValue.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="dataGV_Defects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 225</value>
+  </data>
+  <data name="lbl_InspectorName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_BatchQtyInput.Name" xml:space="preserve">
+    <value>lbl_BatchQtyInput</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCode.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionTypeValue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_StartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyCheckedValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_InspectorID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_DeleteDefect.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="lbl_ProdOrderInput.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCodeInput.Name" xml:space="preserve">
+    <value>lbl_ProductCodeInput</value>
+  </data>
+  <data name="lbl_QtyDefective.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_NoDefect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductCode.Name" xml:space="preserve">
+    <value>txtbx_ProductCode</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrderValue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_NoDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_StartDateValue.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btn_CheckProdOrder.Text" xml:space="preserve">
+    <value>Check For Production Order</value>
+  </data>
+  <data name="lbl_QtyChecked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 15</value>
+  </data>
+  <data name="cmbbx_InspectionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 83</value>
+  </data>
+  <data name="lbl_StartDateValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyChecked.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductCode.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lbl_InspectorIDValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Defects.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyDefective.Name" xml:space="preserve">
+    <value>lbl_QtyDefective</value>
+  </data>
+  <data name="lbl_StartDate.Text" xml:space="preserve">
+    <value>StartDate:</value>
+  </data>
+  <data name="btn_AddDefect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Black, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_EndDateInput.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_InspectionType.Name" xml:space="preserve">
+    <value>cmbbx_InspectionType</value>
+  </data>
+  <data name="lbl_InspectionTypeInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 15</value>
+  </data>
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;dateTime_EndDate.Name" xml:space="preserve">
+    <value>dateTime_EndDate</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCodeValue.Name" xml:space="preserve">
+    <value>lbl_ProductCodeValue</value>
+  </data>
+  <data name="lbl_ProductCodeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_QtyDefective.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Report Header</value>
+  </data>
+  <data name="lbl_InspectionTypeInput.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_EndDateInput.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_ProductCodeInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 127</value>
+  </data>
+  <data name="&gt;&gt;lbl_BatchQtyInput.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="dateTime_StartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txtbx_BatchQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 154</value>
+  </data>
+  <data name="lbl_QtyDefective.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="lbl_BatchQtyInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_QtyChecked.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_StartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 15</value>
+  </data>
+  <data name="lbl_ReportIdValue.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportIdValue.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCodeValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_StartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyChecked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ProductCodeInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 15</value>
+  </data>
+  <data name="lbl_QtyChecked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 189</value>
+  </data>
+  <data name="lbl_ProdOrderInput.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lbl_BatchQtyInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="&gt;&gt;lbl_DefectCount.Name" xml:space="preserve">
+    <value>lbl_DefectCount</value>
+  </data>
+  <data name="lbl_ProdOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 15</value>
+  </data>
+  <data name="lbl_QtyChecked.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_ProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 133</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrderValue.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbl_InspectorIDValue.Name" xml:space="preserve">
     <value>lbl_InspectorIDValue</value>
   </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="lbl_InspectorNameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 77</value>
   </data>
-  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;txtbx_BatchQty.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="txtbx_QtyChecked.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lbl_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 15</value>
-  </data>
-  <data name="lbl_QtyCheckedInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 15</value>
-  </data>
-  <data name="lbl_ProdOrder.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_ProductCodeValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 132</value>
-  </data>
-  <data name="&gt;&gt;btn_Delete.Name" xml:space="preserve">
-    <value>btn_Delete</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDate.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Report Header</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorNameValue.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="lbl_StartDate.Text" xml:space="preserve">
-    <value>StartDate:</value>
-  </data>
-  <data name="&gt;&gt;btn_Delete.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btn_CheckProdOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 154</value>
-  </data>
-  <data name="txtbx_BatchQty.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportIdValue.Name" xml:space="preserve">
-    <value>lbl_ReportIdValue</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProdOrder.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="dateTime_StartDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 23</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyCheckedInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btn_AddDefect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
   </data>
   <data name="lbl_EndDateInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>320, 89</value>
   </data>
-  <data name="&gt;&gt;btn_DeleteDefect.Name" xml:space="preserve">
-    <value>btn_DeleteDefect</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProdOrder.Name" xml:space="preserve">
-    <value>lbl_ProdOrder</value>
-  </data>
-  <data name="btn_DeleteDefect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 5</value>
-  </data>
-  <data name="&gt;&gt;txtbx_BatchQty.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtbx_QtyChecked.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lbl_EndDateInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 15</value>
+  <data name="&gt;&gt;txtbx_BatchQty.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;dataGV_Defects.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbl_ProductCodeInput.Text" xml:space="preserve">
+    <value>Product Code</value>
   </data>
-  <data name="txtbx_ProdOrder.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="&gt;&gt;lbl_QtyDefectiveValue.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;lbl_ProductCodeInput.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btn_CheckProdOrder.Parent" xml:space="preserve">
     <value>splitContainer2.Panel1</value>
   </data>
-  <data name="lbl_ReportID.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;txtbx_QtyChecked.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
   </data>
   <data name="lbl_QtyCheckedInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 197</value>
   </data>
-  <data name="dateTime_StartDate.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;cmbbx_InspectionType.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;lbl_InspectorNameValue.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
+  <data name="btn_NoDefect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="dateTime_EndDate.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;lbl_QtyCheckedInput.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="lbl_StartDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="dataGV_Defects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
   </data>
   <data name="splitContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_NoDefect.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportID.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_CheckProdOrder.Name" xml:space="preserve">
+    <value>btn_CheckProdOrder</value>
+  </data>
+  <data name="lbl_ReportIdValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="&gt;&gt;btn_SendData.Name" xml:space="preserve">
+    <value>btn_SendData</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorIDValue.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_ProductCode.Text" xml:space="preserve">
+    <value>Product Code:</value>
+  </data>
+  <data name="lbl_InspectorIDValue.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorIDValue.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btn_Delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtbx_InspectorID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 39</value>
+  </data>
+  <data name="lbl_InspectorNameValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="txtbx_ProdOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyChecked.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btn_AddDefect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Delete.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="lbl_ProdOrderInput.Text" xml:space="preserve">
+    <value>Production Order</value>
+  </data>
+  <data name="&gt;&gt;btn_DeleteDefect.Name" xml:space="preserve">
+    <value>btn_DeleteDefect</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrderInput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_AddDefect.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_DefectCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_InspectionType.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCodeInput.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_SendData.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="lbl_QtyCheckedValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="txtbx_BatchQty.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDateInput.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtbx_InspectorID.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_InspectorIDInput.Text" xml:space="preserve">
+    <value>Inspector ID</value>
+  </data>
+  <data name="lbl_DefectCount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dateTime_EndDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btn_Delete.Name" xml:space="preserve">
+    <value>btn_Delete</value>
+  </data>
+  <data name="lbl_ProductCodeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="&gt;&gt;lbl_EndDateInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtbx_ProdOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 125</value>
+  </data>
+  <data name="btn_AddDefect.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="btn_AddDefect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 5</value>
+  </data>
+  <data name="btn_DeleteDefect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="dateTime_StartDate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Defects.Name" xml:space="preserve">
+    <value>dataGV_Defects</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportID.Name" xml:space="preserve">
+    <value>lbl_ReportID</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorIDInput.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;txtbx_InspectorID.Name" xml:space="preserve">
+    <value>txtbx_InspectorID</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrder.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbl_InspectionType.Text" xml:space="preserve">
+    <value>Inspection Type:</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Name" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportIdValue.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;btn_CheckProdOrder.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="lbl_ProductCodeValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="lbl_StartDate.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_EndDateInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Panel1.Name" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="dateTime_StartDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>380, 39</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="lbl_ProdOrder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="btn_SendData.Location" type="System.Drawing.Point, System.Drawing">
     <value>745, 265</value>
   </data>
-  <data name="&gt;&gt;lbl_InspectorIDValue.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lbl_InspectorNameValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 77</value>
-  </data>
-  <data name="lbl_InspectionTypeInput.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorIDInput.Name" xml:space="preserve">
-    <value>lbl_InspectorIDInput</value>
-  </data>
-  <data name="&gt;&gt;btn_DeleteDefect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_QtyCheckedInput.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="btn_DeleteDefect.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lbl_StartDateValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_ReportID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 15</value>
-  </data>
-  <data name="lbl_ProdOrder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 15</value>
-  </data>
-  <data name="lbl_InspectorNameValue.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyDefective.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="lbl_InspectorName.Text" xml:space="preserve">
-    <value>Inspector Name:</value>
-  </data>
-  <data name="dateTime_EndDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>380, 83</value>
-  </data>
-  <data name="lbl_ProdOrder.Text" xml:space="preserve">
-    <value>Production Order:</value>
-  </data>
-  <data name="&gt;&gt;btn_NoDefect.Name" xml:space="preserve">
-    <value>btn_NoDefect</value>
-  </data>
-  <data name="&gt;&gt;lbl_DefectCount.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorIDValue.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="btn_DeleteDefect.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Black, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProdOrderValue.Name" xml:space="preserve">
-    <value>lbl_ProdOrderValue</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDateInput.Name" xml:space="preserve">
-    <value>lbl_StartDateInput</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCodeInput.Name" xml:space="preserve">
-    <value>lbl_ProductCodeInput</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_Delete.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionTypeValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dataGV_Defects.Size" type="System.Drawing.Size, System.Drawing">
-    <value>826, 225</value>
-  </data>
-  <data name="txtbx_ProdOrder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 23</value>
-  </data>
-  <data name="lbl_DefectCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 15</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionType.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="lbl_QtyCheckedValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyChecked.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="lbl_ProductCode.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbl_QtyDefectiveValue.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;lbl_ProdOrder.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="lbl_ReportIdValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 9</value>
   </data>
-  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="&gt;&gt;btn_NoDefect.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_InspectionType.Name" xml:space="preserve">
-    <value>cmbbx_InspectionType</value>
-  </data>
-  <data name="&gt;&gt;txtbx_InspectorID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtbx_InspectorID.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="lbl_ProductCode.Text" xml:space="preserve">
-    <value>Product Code:</value>
-  </data>
-  <data name="lbl_BatchQtyInput.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="lbl_ProductCodeValue.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtbx_InspectorID.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="&gt;&gt;btn_AddDefect.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="lbl_InspectorID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 49</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyCheckedInput.Name" xml:space="preserve">
-    <value>lbl_QtyCheckedInput</value>
-  </data>
-  <data name="lbl_InspectionTypeValue.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="cmbbx_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 23</value>
-  </data>
-  <data name="lbl_StartDateInput.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProdOrder.Name" xml:space="preserve">
-    <value>txtbx_ProdOrder</value>
-  </data>
-  <data name="txtbx_ProductCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 124</value>
-  </data>
-  <data name="lbl_ProdOrderValue.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbl_InspectionType.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Defects.Name" xml:space="preserve">
-    <value>dataGV_Defects</value>
-  </data>
-  <data name="dateTime_EndDate.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="btn_Delete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 265</value>
-  </data>
-  <data name="lbl_InspectionTypeValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="lbl_QtyCheckedInput.Text" xml:space="preserve">
-    <value>Quantity Checked</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProdOrderInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyCheckedInput.ZOrder" xml:space="preserve">
-    <value>12</value>
   </data>
   <data name="txtbx_ProductCode.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>HeaderForm</value>
+  <data name="btn_SendData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 23</value>
   </data>
-  <data name="lbl_InspectorIDValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 15</value>
+  <data name="dateTime_StartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 39</value>
   </data>
-  <data name="lbl_StartDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 15</value>
+  <data name="lbl_ProdOrderValue.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="txtbx_QtyChecked.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 194</value>
+  <data name="&gt;&gt;lbl_InspectorName.Name" xml:space="preserve">
+    <value>lbl_InspectorName</value>
   </data>
-  <data name="btn_CheckProdOrder.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;lbl_QtyCheckedInput.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="lbl_DefectCount.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="lbl_EndDateInput.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;btn_SendData.ZOrder" xml:space="preserve">
+  <data name="btn_DeleteDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_InspectorIDInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_InspectionType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ProductCodeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 132</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyDefectiveValue.Name" xml:space="preserve">
+    <value>lbl_QtyDefectiveValue</value>
+  </data>
+  <data name="lbl_QtyCheckedInput.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;btn_AddDefect.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="lbl_BatchQtyInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>315, 157</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductCode.Name" xml:space="preserve">
-    <value>txtbx_ProductCode</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_InspectionType.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="&gt;&gt;lbl_BatchQtyInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_ProdOrderInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 15</value>
-  </data>
-  <data name="lbl_QtyDefectiveValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 15</value>
-  </data>
-  <data name="lbl_ProdOrderInput.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportID.Name" xml:space="preserve">
-    <value>lbl_ReportID</value>
-  </data>
-  <data name="btn_SendData.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lbl_InspectionTypeInput.Text" xml:space="preserve">
-    <value>Inspection Type</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCodeValue.Name" xml:space="preserve">
-    <value>lbl_ProductCodeValue</value>
-  </data>
-  <data name="lbl_ProductCodeInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 15</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyDefective.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbl_InspectorID.Parent" xml:space="preserve">
     <value>splitContainer2.Panel2</value>
   </data>
-  <data name="lbl_QtyDefective.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="cmbbx_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 23</value>
   </data>
-  <data name="lbl_QtyCheckedValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 15</value>
+  <data name="dateTime_StartDate.CustomFormat" xml:space="preserve">
+    <value>dd.MM.yyyy HH:mm</value>
   </data>
-  <data name="lbl_QtyDefectiveValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 217</value>
+  <data name="lbl_ProdOrderInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 128</value>
   </data>
-  <data name="&gt;&gt;lbl_ReportID.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDate.Name" xml:space="preserve">
-    <value>lbl_StartDate</value>
-  </data>
-  <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>850, 244</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProdOrder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="splitContainer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;dateTime_StartDate.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="txtbx_BatchQty.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;lbl_InspectionType.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="btn_Delete.Text" xml:space="preserve">
-    <value>Delete</value>
+  <data name="lbl_ProdOrder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;txtbx_BatchQty.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
+  <data name="lbl_InspectorNameValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="lbl_QtyDefective.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 217</value>
+  <data name="lbl_BatchQtyInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 157</value>
   </data>
-  <data name="txtbx_BatchQty.Location" type="System.Drawing.Point, System.Drawing">
-    <value>380, 154</value>
+  <data name="lbl_InspectionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 105</value>
   </data>
-  <data name="&gt;&gt;lbl_InspectorNameValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbl_ReportIdValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="btn_CheckProdOrder.Enabled" type="System.Boolean, mscorlib">
+  <data name="btn_Delete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtbx_QtyChecked.Name" xml:space="preserve">
+    <value>txtbx_QtyChecked</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProdOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorIDInput.Name" xml:space="preserve">
+    <value>lbl_InspectorIDInput</value>
+  </data>
+  <data name="dateTime_StartDate.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="lbl_EndDateInput.Text" xml:space="preserve">
-    <value>End Date</value>
+  <data name="&gt;&gt;dateTime_StartDate.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="lbl_InspectorIDInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 42</value>
+  <data name="&gt;&gt;lbl_ProdOrder.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
   </data>
-  <data name="lbl_ProductCodeValue.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;txtbx_QtyChecked.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_QtyDefective.Text" xml:space="preserve">
+    <value>Quantity Defective:</value>
+  </data>
+  <data name="lbl_InspectorName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDateInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ReportID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 9</value>
+  </data>
+  <data name="&gt;&gt;lbl_DefectCount.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorName.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lbl_EndDateInput.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_DefectCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 13</value>
+  </data>
+  <data name="btn_Delete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_SendData.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="lbl_InspectorIDValue.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 15</value>
   </data>
   <data name="&gt;&gt;lbl_ProductCodeValue.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;lbl_InspectionTypeValue.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lbl_ReportID.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProdOrder.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btn_DeleteDefect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 23</value>
-  </data>
-  <data name="lbl_ProductCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 133</value>
-  </data>
-  <data name="lbl_InspectionTypeInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 15</value>
-  </data>
-  <data name="&gt;&gt;lbl_EndDateInput.Name" xml:space="preserve">
-    <value>lbl_EndDateInput</value>
-  </data>
-  <data name="lbl_InspectorName.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lbl_QtyCheckedInput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_BatchQtyInput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_ReportIdValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_InspectionType.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProdOrder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_ProductCode.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCode.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Defects.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="btn_Delete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="lbl_ProdOrderInput.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorID.Name" xml:space="preserve">
-    <value>lbl_InspectorID</value>
-  </data>
-  <data name="lbl_InspectorID.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorIDInput.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbl_InspectionTypeInput.Parent" xml:space="preserve">
     <value>splitContainer2.Panel1</value>
   </data>
-  <data name="lbl_ReportIdValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 15</value>
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;lbl_ProdOrderInput.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
+  <data name="lbl_StartDateInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
   </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>850, 548</value>
   </data>
-  <data name="&gt;&gt;lbl_InspectionTypeInput.Name" xml:space="preserve">
-    <value>lbl_InspectionTypeInput</value>
-  </data>
-  <data name="dateTime_StartDate.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btn_Delete.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyChecked.Name" xml:space="preserve">
-    <value>lbl_QtyChecked</value>
-  </data>
-  <data name="lbl_InspectionType.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProdOrderInput.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;dateTime_EndDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorName.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbl_StartDateValue.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;splitContainer2.Panel2.Name" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="lbl_BatchQtyInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 15</value>
-  </data>
-  <data name="&gt;&gt;lbl_DefectCount.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtbx_BatchQty.Name" xml:space="preserve">
-    <value>txtbx_BatchQty</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorID.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectorName.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel2</value>
-  </data>
-  <data name="lbl_ProductCodeInput.Text" xml:space="preserve">
-    <value>Product Code</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProdOrderValue.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btn_NoDefect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 5</value>
-  </data>
-  <data name="lbl_ProductCodeValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
-    <value>538</value>
-  </data>
-  <data name="lbl_ProdOrderValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 161</value>
-  </data>
-  <data name="dataGV_Defects.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductCode.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="btn_CheckProdOrder.Text" xml:space="preserve">
-    <value>Check For Production Order</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCodeValue.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbl_QtyCheckedInput.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lbl_InspectionTypeValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lbl_InspectorIDInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 15</value>
   </data>
-  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
   </data>
-  <data name="lbl_InspectorName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
+  <data name="lbl_DefectCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 15</value>
   </data>
-  <data name="&gt;&gt;txtbx_ProductCode.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionTypeInput.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;btn_AddDefect.Name" xml:space="preserve">
-    <value>btn_AddDefect</value>
-  </data>
-  <data name="&gt;&gt;btn_DeleteDefect.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;dateTime_EndDate.Name" xml:space="preserve">
-    <value>dateTime_EndDate</value>
-  </data>
-  <data name="&gt;&gt;lbl_QtyDefective.Name" xml:space="preserve">
-    <value>lbl_QtyDefective</value>
-  </data>
-  <data name="txtbx_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 23</value>
-  </data>
-  <data name="lbl_ProdOrder.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lbl_InspectionType.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lbl_BatchQtyInput.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionType.Name" xml:space="preserve">
-    <value>lbl_InspectionType</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDateInput.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="btn_Delete.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lbl_ProdOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 161</value>
-  </data>
-  <data name="&gt;&gt;lbl_StartDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_SendData.Text" xml:space="preserve">
-    <value>Send</value>
-  </data>
-  <data name="&gt;&gt;txtbx_QtyChecked.Parent" xml:space="preserve">
-    <value>splitContainer2.Panel1</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportIdValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_AddDefect.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Black, 9pt, style=Bold</value>
-  </data>
-  <data name="lbl_QtyChecked.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lbl_InspectorNameValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 15</value>
-  </data>
-  <data name="&gt;&gt;splitContainer2.Name" xml:space="preserve">
+  <data name="&gt;&gt;splitContainer2.Panel2.Parent" xml:space="preserve">
     <value>splitContainer2</value>
   </data>
-  <data name="lbl_ProdOrderInput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 128</value>
+  <data name="btn_CheckProdOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDate.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="lbl_ProductCodeInput.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;btn_AddDefect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lbl_ProductCode.Name" xml:space="preserve">
+    <value>lbl_ProductCode</value>
   </data>
-  <data name="lbl_QtyDefectiveValue.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;cmbbx_InspectionType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_InspectorIDInput.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtbx_QtyChecked.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn_DeleteDefect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Black, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_QtyDefectiveValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrderInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTime_EndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDateInput.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="lbl_ProdOrder.Text" xml:space="preserve">
+    <value>Production Order:</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectorIDInput.ZOrder" xml:space="preserve">
     <value>15</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionType.Name" xml:space="preserve">
+    <value>lbl_InspectionType</value>
+  </data>
+  <data name="lbl_InspectionTypeInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 86</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionType.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="lbl_ProdOrderValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="lbl_ProdOrderInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 15</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDateValue.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="lbl_InspectorID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>538</value>
+  </data>
+  <data name="lbl_ProductCode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProdOrderInput.Name" xml:space="preserve">
+    <value>lbl_ProdOrderInput</value>
+  </data>
+  <data name="&gt;&gt;lbl_StartDateValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_ProductCodeInput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtbx_ProdOrder.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyCheckedValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtbx_ProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 124</value>
+  </data>
+  <data name="lbl_DefectCount.Text" xml:space="preserve">
+    <value>0 defect(s) registered</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_InspectorID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 49</value>
+  </data>
+  <data name="&gt;&gt;lbl_QtyDefectiveValue.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCodeValue.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>ru</value>
+    <value>en-US</value>
   </metadata>
 </root>

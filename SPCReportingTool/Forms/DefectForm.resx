@@ -117,211 +117,187 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;cmbbx_Step.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cmbbx_Reference.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btn_AddDefect.Text" xml:space="preserve">
-    <value>Add Defect</value>
-  </data>
-  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbl_Step.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lbl_Reference.Location" type="System.Drawing.Point, System.Drawing">
-    <value>67, 133</value>
-  </data>
-  <data name="lbl_Step.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Step.Name" xml:space="preserve">
-    <value>cmbbx_Step</value>
-  </data>
-  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rtxtbox_Comment.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Reference.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_AddDefect.Name" xml:space="preserve">
-    <value>btn_AddDefect</value>
-  </data>
-  <data name="cmbbx_Step.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 23</value>
-  </data>
-  <data name="&gt;&gt;lbl_Reference.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_Reference.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="rtxtbox_Comment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 189</value>
-  </data>
-  <data name="lbl_Reference.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;lbl_ErrorType.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="cmbbx_ErrorType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 78</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_ErrorType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_ErrorType.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_ErrorType.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="cmbbx_Step.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 27</value>
-  </data>
-  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;rtxtbox_Comment.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_AddDefect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_Reference.Text" xml:space="preserve">
-    <value>Reference</value>
-  </data>
-  <data name="&gt;&gt;lbl_Comment.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_Comment.Name" xml:space="preserve">
-    <value>lbl_Comment</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Step.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Defect Report</value>
-  </data>
-  <data name="&gt;&gt;rtxtbox_Comment.Name" xml:space="preserve">
-    <value>rtxtbox_Comment</value>
-  </data>
-  <data name="lbl_Comment.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lbl_Reference.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lbl_Step.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 30</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>DefectForm</value>
-  </data>
-  <data name="&gt;&gt;lbl_Comment.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_ErrorType.Name" xml:space="preserve">
-    <value>cmbbx_ErrorType</value>
-  </data>
-  <data name="&gt;&gt;lbl_ErrorType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cmbbx_ErrorType.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btn_AddDefect.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rtxtbox_Comment.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 282</value>
-  </data>
-  <data name="cmbbx_Step.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btn_Cancel.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_ErrorType.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lbl_ErrorType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 15</value>
-  </data>
-  <data name="lbl_ErrorType.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lbl_Comment.Text" xml:space="preserve">
-    <value>Comment</value>
-  </data>
-  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
-    <value>btn_Cancel</value>
-  </data>
-  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lbl_Step.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lbl_Step.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btn_AddDefect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Step.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="rtxtbox_Comment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 80</value>
-  </data>
-  <data name="&gt;&gt;lbl_Comment.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_ErrorType.Text" xml:space="preserve">
-    <value>Error Type</value>
-  </data>
-  <data name="cmbbx_ErrorType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 23</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Reference.Name" xml:space="preserve">
-    <value>cmbbx_Reference</value>
   </data>
   <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btn_AddDefect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 282</value>
+  <data name="&gt;&gt;rtxtbox_Comment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Comment.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbl_Step.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rtxtbox_Comment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Comment.Text" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbbx_Step.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 23</value>
   </data>
   <data name="cmbbx_Reference.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 130</value>
   </data>
+  <data name="lbl_Comment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 171</value>
+  </data>
+  <data name="btn_AddDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_ErrorType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="lbl_Reference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_ErrorType.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btn_AddDefect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 282</value>
+  </data>
+  <data name="lbl_Step.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 30</value>
+  </data>
+  <data name="lbl_ErrorType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 81</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Step.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_AddDefect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Comment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 15</value>
+  </data>
+  <data name="&gt;&gt;btn_AddDefect.Name" xml:space="preserve">
+    <value>btn_AddDefect</value>
+  </data>
+  <data name="cmbbx_ErrorType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 23</value>
+  </data>
+  <data name="cmbbx_ErrorType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 78</value>
+  </data>
+  <data name="lbl_Reference.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rtxtbox_Comment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 189</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_ErrorType.Name" xml:space="preserve">
+    <value>cmbbx_ErrorType</value>
+  </data>
+  <data name="lbl_Reference.Text" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Step.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="lbl_Comment.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbbx_Reference.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_ErrorType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_Step.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_ErrorType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_AddDefect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_AddDefect.Text" xml:space="preserve">
+    <value>Add Defect</value>
+  </data>
   <data name="&gt;&gt;lbl_Step.Name" xml:space="preserve">
     <value>lbl_Step</value>
+  </data>
+  <data name="&gt;&gt;lbl_ErrorType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Step.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_ErrorType.Text" xml:space="preserve">
+    <value>Error Type</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Comment.Name" xml:space="preserve">
+    <value>lbl_Comment</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Defect Report</value>
+  </data>
+  <data name="&gt;&gt;lbl_Reference.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Reference.Name" xml:space="preserve">
+    <value>cmbbx_Reference</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_ErrorType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rtxtbox_Comment.Name" xml:space="preserve">
+    <value>rtxtbox_Comment</value>
+  </data>
+  <data name="&gt;&gt;rtxtbox_Comment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rtxtbox_Comment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 80</value>
+  </data>
+  <data name="lbl_Reference.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;btn_AddDefect.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_Step.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 15</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Step.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbbx_Step.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 27</value>
+  </data>
+  <data name="&gt;&gt;lbl_Step.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Comment.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="lbl_Step.Text" xml:space="preserve">
     <value>Manufacturing Step</value>
   </data>
-  <data name="&gt;&gt;lbl_ErrorType.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btn_AddDefect.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;btn_AddDefect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbbx_Reference.Parent" xml:space="preserve">
     <value>$this</value>
@@ -329,53 +305,77 @@
   <data name="&gt;&gt;cmbbx_Reference.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="&gt;&gt;lbl_ErrorType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cmbbx_Reference.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 23</value>
-  </data>
-  <data name="&gt;&gt;lbl_Reference.Name" xml:space="preserve">
-    <value>lbl_Reference</value>
-  </data>
-  <data name="lbl_Comment.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="lbl_Comment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 171</value>
-  </data>
-  <data name="&gt;&gt;btn_AddDefect.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="rtxtbox_Comment.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lbl_Reference.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 15</value>
-  </data>
-  <data name="lbl_ErrorType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>67, 81</value>
-  </data>
-  <data name="lbl_Reference.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lbl_Step.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 15</value>
-  </data>
-  <data name="rtxtbox_Comment.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="lbl_Comment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 15</value>
   </data>
   <data name="&gt;&gt;lbl_Step.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl_ErrorType.Name" xml:space="preserve">
-    <value>lbl_ErrorType</value>
+  <data name="&gt;&gt;lbl_Comment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Step.Name" xml:space="preserve">
+    <value>cmbbx_Step</value>
+  </data>
+  <data name="rtxtbox_Comment.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbl_Reference.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DefectForm</value>
+  </data>
+  <data name="cmbbx_Step.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Reference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 282</value>
+  </data>
+  <data name="rtxtbox_Comment.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmbbx_Reference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 23</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Reference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbbx_ErrorType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Reference.Name" xml:space="preserve">
+    <value>lbl_Reference</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>370, 314</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="lbl_Reference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 133</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_ErrorType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ErrorType.Name" xml:space="preserve">
+    <value>lbl_ErrorType</value>
+  </data>
+  <data name="&gt;&gt;lbl_Comment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

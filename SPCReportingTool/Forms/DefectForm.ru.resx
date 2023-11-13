@@ -129,7 +129,7 @@
     <value>116, 51</value>
   </data>
   <data name="lbl_Step.Text" xml:space="preserve">
-    <value>Стадия производственного процесса</value>
+    <value>Стадия производства</value>
   </data>
   <data name="lbl_Step.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -143,14 +143,20 @@
   <data name="lbl_ErrorType.Text" xml:space="preserve">
     <value>Тип дефекта</value>
   </data>
+  <data name="lbl_Reference.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="lbl_Reference.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 133</value>
+    <value>28, 123</value>
   </data>
   <data name="lbl_Reference.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 15</value>
+    <value>98, 34</value>
   </data>
   <data name="lbl_Reference.Text" xml:space="preserve">
-    <value>Ссылка</value>
+    <value>Ссылка на компонент</value>
+  </data>
+  <data name="lbl_Reference.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="btn_AddDefect.Location" type="System.Drawing.Point, System.Drawing">
     <value>240, 282</value>
@@ -165,7 +171,7 @@
     <value>159, 282</value>
   </data>
   <data name="btn_Cancel.Text" xml:space="preserve">
-    <value>Отменить</value>
+    <value>Отмена</value>
   </data>
   <data name="lbl_Comment.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 15</value>
@@ -174,6 +180,6 @@
     <value>Комментарий</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Дефект информации</value>
+    <value>Дефект</value>
   </data>
 </root>

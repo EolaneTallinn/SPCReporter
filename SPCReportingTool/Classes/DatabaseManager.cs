@@ -136,9 +136,35 @@ namespace SPCReportingTool.Classes
             //use the NewRow to create a DataRow.
             DataRow newRow;
             newRow = dt.NewRow();
+
+            foreach (DataColumn col in dt.Columns)
+            {
+                if (!col.AllowDBNull)
+                {
+                    col.AllowDBNull = true;
+                }
+            }
+
             // Then add the new row to the collection.
             dt.Rows.InsertAt(newRow, 0);
             return dt;
+        }
+
+
+        /// <summary>
+        /// GetAllInspectors Method
+        /// Retrieve the list of the inspectors present in the SPC Database
+        /// </summary>
+        /// <returns>
+        /// DataTable with the list of ID and Name of the existing inspectors
+        /// </returns>
+        internal static DataTable GetAllInspectors()
+        {
+            SQLProcedures.ProcedureInfo procedure = SQLProcedures.GetAllInspectors;
+
+            DataTable data = ExecuteStoredProcedure(Globals.SQLLogins["SPCReports"], procedure);
+
+            return data;
         }
 
 

@@ -117,33 +117,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="rbtn_InspectorID.Text" xml:space="preserve">
-    <value>ИД Инспектора</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chсkbx_DateFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="rbtn_InspectorName.Text" xml:space="preserve">
-    <value>Имя Инспектора</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chсkbx_DateFilter.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chсkbx_DateFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 19</value>
+  </data>
+  <data name="chсkbx_DateFilter.Text" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="cmbbx_Inspector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="lbl_ReportID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>889, 99</value>
+  </data>
+  <data name="lbl_ReportID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 15</value>
   </data>
   <data name="lbl_ReportID.Text" xml:space="preserve">
-    <value>ИД Отчёта</value>
+    <value>Номер отчёта</value>
   </data>
   <data name="lbl_ProductionOrder.Text" xml:space="preserve">
     <value>Заказ</value>
   </data>
-  <data name="lbl_ProductCode.Text" xml:space="preserve">
-    <value>Код Продукта</value>
+  <data name="lbl_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 15</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_ProductCode.Text" xml:space="preserve">
+    <value>Код продукта</value>
+  </data>
   <data name="lbl_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 15</value>
   </data>
   <data name="lbl_InspectionType.Text" xml:space="preserve">
-    <value>Тип Когтроли</value>
+    <value>Тип контроля</value>
+  </data>
+  <data name="cmbbx_DateSelection.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbbx_DateSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>736, 21</value>
+  </data>
+  <data name="cmbbx_DateSelection.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbtn_InspectorID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 19</value>
+  </data>
+  <data name="rbtn_InspectorID.Text" xml:space="preserve">
+    <value>ID инспектора</value>
+  </data>
+  <data name="rbtn_InspectorName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 19</value>
+  </data>
+  <data name="rbtn_InspectorName.Text" xml:space="preserve">
+    <value>Имя инспектора</value>
   </data>
   <data name="btn_EditMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 23</value>
+    <value>256, 23</value>
   </data>
   <data name="btn_EditMode.Text" xml:space="preserve">
-    <value>Изменить Отчёты</value>
+    <value>Редактировать</value>
   </data>
   <data name="btn_Search.Text" xml:space="preserve">
     <value>Поискать</value>

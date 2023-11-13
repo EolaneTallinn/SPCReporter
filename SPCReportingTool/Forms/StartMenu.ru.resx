@@ -124,9 +124,9 @@
     <value>Просмотреть Отчеты</value>
   </data>
   <data name="btn_ChangeLanguage.Text" xml:space="preserve">
-    <value>Переключить на Английский</value>
+    <value>English</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Стартовое Меню</value>
+    <value>База данных SPC</value>
   </data>
 </root>

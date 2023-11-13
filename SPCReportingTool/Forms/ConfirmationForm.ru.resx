@@ -131,7 +131,7 @@
     <value>Продолжать</value>
   </data>
   <data name="btn_Cancel.Text" xml:space="preserve">
-    <value>Отменит</value>
+    <value>Отмена</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Вы уверены?</value>

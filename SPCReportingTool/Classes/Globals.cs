@@ -51,6 +51,7 @@ namespace SPCReportingTool.Classes
         internal static readonly ProcedureInfo DeleteReport = new ProcedureInfo("DeleteReport", false);
         internal static readonly ProcedureInfo DeleteAllDefects = new ProcedureInfo("DeleteAllDefects", false);
         internal static readonly ProcedureInfo RequestLogin = new ProcedureInfo("RequestLogin", true);
+        internal static readonly ProcedureInfo GetAllInspectors = new ProcedureInfo("GetAllInspectors", true);
 
         //intern class to clarify access to SQLProcedures.Procedure (we can use storedProcedureName.Name) for exemple
         internal class ProcedureInfo

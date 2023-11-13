@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewReportsForm));
             splitContainer1 = new SplitContainer();
             dataGV_Reports = new DataGridView();
+            chсkbx_DateFilter = new CheckBox();
+            cmbbx_Inspector = new ComboBox();
             groupBox_Inspector = new GroupBox();
             rbtn_InspectorID = new RadioButton();
             rbtn_InspectorName = new RadioButton();
@@ -40,7 +42,6 @@
             lbl_ProductionOrder = new Label();
             lbl_ProductCode = new Label();
             lbl_InspectionType = new Label();
-            txtbx_Inspector = new TextBox();
             cmbbx_DateSelection = new ComboBox();
             cmbbx_InspectionType = new ComboBox();
             txtbx_ProductCode = new TextBox();
@@ -71,6 +72,8 @@
             // splitContainer1.Panel2
             // 
             resources.ApplyResources(splitContainer1.Panel2, "splitContainer1.Panel2");
+            splitContainer1.Panel2.Controls.Add(chсkbx_DateFilter);
+            splitContainer1.Panel2.Controls.Add(cmbbx_Inspector);
             splitContainer1.Panel2.Controls.Add(groupBox_Inspector);
             splitContainer1.Panel2.Controls.Add(lbl_ReportID);
             splitContainer1.Panel2.Controls.Add(txtbx_ReportID);
@@ -78,7 +81,6 @@
             splitContainer1.Panel2.Controls.Add(lbl_ProductionOrder);
             splitContainer1.Panel2.Controls.Add(lbl_ProductCode);
             splitContainer1.Panel2.Controls.Add(lbl_InspectionType);
-            splitContainer1.Panel2.Controls.Add(txtbx_Inspector);
             splitContainer1.Panel2.Controls.Add(cmbbx_DateSelection);
             splitContainer1.Panel2.Controls.Add(cmbbx_InspectionType);
             splitContainer1.Panel2.Controls.Add(txtbx_ProductCode);
@@ -99,6 +101,21 @@
             dataGV_Reports.RowTemplate.Height = 25;
             dataGV_Reports.CurrentCellChanged += dataGV_Reports_CurrentCellChanged;
             // 
+            // chсkbx_DateFilter
+            // 
+            resources.ApplyResources(chсkbx_DateFilter, "chсkbx_DateFilter");
+            chсkbx_DateFilter.Name = "chсkbx_DateFilter";
+            chсkbx_DateFilter.UseVisualStyleBackColor = true;
+            chсkbx_DateFilter.CheckedChanged += chсkbx_DateFilter_CheckedChanged;
+            // 
+            // cmbbx_Inspector
+            // 
+            resources.ApplyResources(cmbbx_Inspector, "cmbbx_Inspector");
+            cmbbx_Inspector.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbbx_Inspector.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cmbbx_Inspector.FormattingEnabled = true;
+            cmbbx_Inspector.Name = "cmbbx_Inspector";
+            // 
             // groupBox_Inspector
             // 
             resources.ApplyResources(groupBox_Inspector, "groupBox_Inspector");
@@ -113,6 +130,7 @@
             rbtn_InspectorID.Name = "rbtn_InspectorID";
             rbtn_InspectorID.TabStop = true;
             rbtn_InspectorID.UseVisualStyleBackColor = true;
+            rbtn_InspectorID.CheckedChanged += rbtn_InspectorID_CheckedChanged;
             // 
             // rbtn_InspectorName
             // 
@@ -120,6 +138,7 @@
             rbtn_InspectorName.Name = "rbtn_InspectorName";
             rbtn_InspectorName.TabStop = true;
             rbtn_InspectorName.UseVisualStyleBackColor = true;
+            rbtn_InspectorName.CheckedChanged += rbtn_InspectorName_CheckedChanged;
             // 
             // lbl_ReportID
             // 
@@ -150,11 +169,6 @@
             // 
             resources.ApplyResources(lbl_InspectionType, "lbl_InspectionType");
             lbl_InspectionType.Name = "lbl_InspectionType";
-            // 
-            // txtbx_Inspector
-            // 
-            resources.ApplyResources(txtbx_Inspector, "txtbx_Inspector");
-            txtbx_Inspector.Name = "txtbx_Inspector";
             // 
             // cmbbx_DateSelection
             // 
@@ -245,7 +259,6 @@
         private RadioButton rbtn_InspectorName;
         private RadioButton rbtn_InspectorID;
         private Button btn_Search;
-        private TextBox txtbx_Inspector;
         private Label lbl_ProductionOrder;
         private Label lbl_ProductCode;
         private Label lbl_InspectionType;
@@ -253,5 +266,7 @@
         private Label lbl_ReportID;
         private TextBox txtbx_ReportID;
         private GroupBox groupBox_Inspector;
+        private ComboBox cmbbx_Inspector;
+        private CheckBox chсkbx_DateFilter;
     }
 }

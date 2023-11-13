@@ -149,8 +149,6 @@ namespace SPCReportingTool.Forms
             if (validate && !_editMode)
             {
                 SetStartDate();
-
-                this.txtbx_InspectorID.Enabled = false;
             }
             this.btn_SendData.Enabled = CheckData();
         }
@@ -174,8 +172,6 @@ namespace SPCReportingTool.Forms
                 if (validate && !_editMode)
                 {
                     SetStartDate();
-
-                    this.txtbx_InspectorID.Enabled = false;
                 }
                 this.btn_SendData.Enabled = CheckData();
             }
@@ -198,8 +194,6 @@ namespace SPCReportingTool.Forms
                 if (!_editMode)
                 {
                     SetStartDate();
-
-                    this.cmbbx_InspectionType.Enabled = false;
                 }
             }
             this.btn_SendData.Enabled = CheckData();
@@ -223,6 +217,32 @@ namespace SPCReportingTool.Forms
             {
                 this.btn_CheckProdOrder.Enabled = true;
             }
+
+            this.ProductCode = this.txtbx_ProductCode.Text;
+
+            if (this.ProductionOrder != String.Empty)
+            {
+                this.txtbx_ProdOrder.Text = String.Empty;
+                this.txtbx_BatchQty.Text = "0";
+                RefreshProdOrderInfo();
+            }
+
+        }
+
+
+        /// <summary>
+        /// txtbx_ProductCode_GotFocus Event Handler
+        /// Triggered when the text box for Product Code get the focus
+        /// Set the Accept button of the form to the Production Order button so that the user can press OK to search a production order (only in creation mode)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtbx_ProductCode_GotFocus(object sender, EventArgs e)
+        {
+            if (!_editMode)
+            {
+                this.AcceptButton = this.btn_CheckProdOrder;
+            }
         }
 
 
@@ -240,7 +260,7 @@ namespace SPCReportingTool.Forms
             {
                 SetStartDate();
 
-                this.txtbx_ProductCode.Enabled = false;
+                this.AcceptButton = this.btn_SendData;
             }
             this.btn_SendData.Enabled = CheckData();
         }
@@ -282,7 +302,6 @@ namespace SPCReportingTool.Forms
                                 //Retrieving info from the selected item
                                 this.txtbx_ProdOrder.Text = (selectionForm.Selection?["Order"] ?? String.Empty).ToString();
                                 this.txtbx_BatchQty.Text = ((int)(Decimal)(selectionForm.Selection?["Target Qty"] ?? "0")).ToString();
-                                this.btn_CheckProdOrder.Enabled = false;
                                 RefreshProdOrderInfo();
                             }
                             catch
@@ -396,7 +415,7 @@ namespace SPCReportingTool.Forms
                     this.btn_DeleteDefect.Enabled = false;
                 }
 
-                this.lbl_DefectCount.Text = this.Defects.Rows.Count.ToString() + Resources.String.DefectCountLbl;
+                this.lbl_DefectCount.Text = Resources.String.DefectCountLbl + this.Defects.Rows.Count.ToString();
                 RefreshQtyDefectiveInfo();
             }
             catch
@@ -933,7 +952,7 @@ namespace SPCReportingTool.Forms
         private void RefreshDefectInfo(DataRow newDefect, DataRow newDefectView)
         {
             //Update defect count label
-            this.lbl_DefectCount.Text = this.Defects.Rows.Count.ToString() + Resources.String.DefectCountLbl;
+            this.lbl_DefectCount.Text = Resources.String.DefectCountLbl + this.Defects.Rows.Count.ToString();
 
             //This index is just an aid for the operator. It will not be added to the SPCReports Database
             newDefectView[Resources.String.DefectViewerCol1] = this.Defects.Rows.Count.ToString();

@@ -125,6 +125,9 @@
   <data name="chсkbx_DateFilter.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
+  <data name="chсkbx_DateFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 38</value>
+  </data>
   <data name="chсkbx_DateFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 19</value>
   </data>
@@ -186,9 +189,21 @@
     <value>Редактировать</value>
   </data>
   <data name="btn_Search.Text" xml:space="preserve">
-    <value>Поискать</value>
+    <value>Поиск</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1098, 632</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Обновить</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Посмотреть Отчёты</value>
+    <value>Посмотреть отчёты</value>
   </data>
 </root>

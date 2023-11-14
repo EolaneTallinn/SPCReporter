@@ -50,6 +50,7 @@
             dataGV_Defects = new DataGridView();
             btn_EditMode = new Button();
             btn_Search = new Button();
+            btn_Refresh = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -226,10 +227,18 @@
             btn_Search.UseVisualStyleBackColor = true;
             btn_Search.Click += btn_Search_Click;
             // 
+            // btn_Refresh
+            // 
+            resources.ApplyResources(btn_Refresh, "btn_Refresh");
+            btn_Refresh.Name = "btn_Refresh";
+            btn_Refresh.UseVisualStyleBackColor = true;
+            btn_Refresh.Click += btn_Refresh_Click;
+            // 
             // ViewReportsForm
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btn_Refresh);
             Controls.Add(splitContainer1);
             Controls.Add(btn_EditMode);
             Controls.Add(btn_Search);
@@ -268,5 +277,6 @@
         private GroupBox groupBox_Inspector;
         private ComboBox cmbbx_Inspector;
         private CheckBox chсkbx_DateFilter;
+        private Button btn_Refresh;
     }
 }

@@ -128,7 +128,7 @@
     <value>95, 23</value>
   </data>
   <data name="btn_Confirm.Text" xml:space="preserve">
-    <value>Продолжать</value>
+    <value>Продолжить</value>
   </data>
   <data name="btn_Cancel.Text" xml:space="preserve">
     <value>Отмена</value>

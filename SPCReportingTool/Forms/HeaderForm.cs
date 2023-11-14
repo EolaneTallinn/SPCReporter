@@ -650,11 +650,11 @@ namespace SPCReportingTool.Forms
             //Adding Edit button column to Defect Grid View
             DataGridViewButtonColumn editColumn = new DataGridViewButtonColumn()
             {
-                Name = Resources.String.EditButton,
+                Name = " ", //Header name of the edit button column
                 Text = Resources.String.EditButton,
                 UseColumnTextForButtonValue = true
             };
-            if (this.dataGV_Defects.Columns[Resources.String.EditButton] == null)
+            if (this.dataGV_Defects.Columns[" "] == null)
             {
                 this.dataGV_Defects.Columns.Insert(0, editColumn);
             }

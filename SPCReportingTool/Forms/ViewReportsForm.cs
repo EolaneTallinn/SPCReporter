@@ -232,15 +232,26 @@ namespace SPCReportingTool.Forms
         /// <summary>
         /// btn_Search_Click Event Handler
         /// Triggered when the "Search" button is clicked
-        /// Will get the 100 last reports corresponding to the search criteria
+        /// Refresh the results with the reports corresponding to the search criteria
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btn_Search_Click(object sender, EventArgs e)
         {
-            this._reports = DatabaseManager.GetReports(100, GetSearchParameters());
-            this.dataGV_Reports.DataSource = this._reports;
-            AutoSizeDataGV(this.dataGV_Reports, 0);
+            RefreshReports();
+        }
+
+
+        /// <summary>
+        /// btn_Refresh_Click Event Handler
+        /// Triggered when the "Refresh" button is clicked
+        /// Refresh the results with the reports corresponding to the search criteria. Added to have a more intuitive action for user.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btn_Refresh_Click(object sender, EventArgs e)
+        {
+            RefreshReports();
         }
 
 
@@ -489,7 +500,7 @@ namespace SPCReportingTool.Forms
 
         /// <summary>
         /// RefreshReports Method
-        /// Refresh the report list with the current search criterias (used by other object to refresh the viewing form from which they were called)
+        /// Get the list of the last 100 reports corresponding to the current search criterias
         /// </summary>
         internal void RefreshReports()
         {
@@ -498,6 +509,5 @@ namespace SPCReportingTool.Forms
             AutoSizeDataGV(this.dataGV_Reports, 0);
         }
         #endregion
-
     }
 }

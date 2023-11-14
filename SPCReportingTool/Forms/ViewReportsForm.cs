@@ -280,11 +280,11 @@ namespace SPCReportingTool.Forms
 
                     //Add button column to the reports grid view
                     DataGridViewButtonColumn editColumn = new DataGridViewButtonColumn();
-                    editColumn.Name = Resources.String.EditButton;
+                    editColumn.Name = " ";
                     editColumn.Text = Resources.String.EditButton;
                     editColumn.UseColumnTextForButtonValue = true;
 
-                    if (this.dataGV_Reports.Columns[Resources.String.EditButton] == null)
+                    if (this.dataGV_Reports.Columns[" "] == null)
                     {
                         this.dataGV_Reports.Columns.Insert(0, editColumn);
                     }

@@ -98,7 +98,7 @@ namespace SPCReportingTool.Forms
 
         //Start and End timestamps for the current report
         internal DateTime StartDate { get; set; } = DateTime.MinValue;
-        internal DateTime EndDate { get; set; } = DateTime.MinValue;
+        internal DateTime EndDate { get; set; } = DateTime.MaxValue;
 
         //Informations about who is filling the report. Corresponds to the user ID and name in the dataterm database (ESD gates)
         internal int UserID { get; set; } = 0;
@@ -500,10 +500,18 @@ namespace SPCReportingTool.Forms
         /// <param name="e"></param>
         private void dateTime_StartDate_ValueChanged(object sender, EventArgs e)
         {
-            this.StartDate = dateTime_StartDate.Value;
-            this.lbl_StartDateValue.Text = this.StartDate.ToString("g");
+            if (!this._editMode || dateTime_StartDate.Value <= this.EndDate)
+            {
+                this.StartDate = dateTime_StartDate.Value;
+                this.lbl_StartDateValue.Text = this.StartDate.ToString("g");
 
-            this.btn_SendData.Enabled = CheckData();
+                this.btn_SendData.Enabled = CheckData();
+            }
+            else
+            {
+                var errForm = new ErrorForm(Resources.String.DateErrorStart);
+                errForm.ShowDialog();
+            }
         }
 
 
@@ -516,9 +524,17 @@ namespace SPCReportingTool.Forms
         /// <param name="e"></param>
         private void dateTime_EndDate_ValueChanged(object sender, EventArgs e)
         {
-            this.EndDate = dateTime_EndDate.Value;
+            if (!this._editMode || dateTime_EndDate.Value >= this.StartDate)
+            {
+                this.EndDate = dateTime_EndDate.Value;
 
-            this.btn_SendData.Enabled = CheckData();
+                this.btn_SendData.Enabled = CheckData();
+            }
+            else
+            {
+                var errForm = new ErrorForm(Resources.String.DateErrorEnd);
+                errForm.ShowDialog();
+            }
         }
 
 
@@ -955,7 +971,10 @@ namespace SPCReportingTool.Forms
             this.lbl_DefectCount.Text = Resources.String.DefectCountLbl + this.Defects.Rows.Count.ToString();
 
             //This index is just an aid for the operator. It will not be added to the SPCReports Database
-            newDefectView[Resources.String.DefectViewerCol1] = this.Defects.Rows.Count.ToString();
+            if(newDefectView[Resources.String.DefectViewerCol1] == System.DBNull.Value)
+            {
+                newDefectView[Resources.String.DefectViewerCol1] = this.Defects.Rows.Count.ToString();
+            }
 
             //Looking for the Step Name
             foreach (DataRow step in this._manSteps.Rows)
@@ -1177,6 +1196,8 @@ namespace SPCReportingTool.Forms
 
                         //Update the report view form which called the Header form for edition
                         this.ReportView?.RefreshReports();
+
+                        this.Close();
                     }
                     catch
                     {

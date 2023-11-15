@@ -70,6 +70,24 @@ namespace SPCReportingTool.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The end date should be later than the start date.
+        /// </summary>
+        internal static string DateErrorEnd {
+            get {
+                return ResourceManager.GetString("DateErrorEnd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The start date should be earlier than the end date.
+        /// </summary>
+        internal static string DateErrorStart {
+            get {
+                return ResourceManager.GetString("DateErrorStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Batch Qty.
         /// </summary>
         internal static string DBBatchQtyReportView {

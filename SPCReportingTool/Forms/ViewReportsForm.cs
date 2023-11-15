@@ -245,12 +245,14 @@ namespace SPCReportingTool.Forms
         /// <summary>
         /// btn_Refresh_Click Event Handler
         /// Triggered when the "Refresh" button is clicked
-        /// Refresh the results with the reports corresponding to the search criteria. Added to have a more intuitive action for user.
+        /// Reset the serach parameters and refresh the report list.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btn_Refresh_Click(object sender, EventArgs e)
         {
+            ResetSearchParam();
+
             RefreshReports();
         }
 
@@ -288,6 +290,7 @@ namespace SPCReportingTool.Forms
                     {
                         this.dataGV_Reports.Columns.Insert(0, editColumn);
                     }
+                    AutoSizeDataGV(this.dataGV_Reports, AutoSizeModes.Evenly);
 
                     //Add events to react on the button click and when double-clicking on a cell
                     this.dataGV_Reports.CellDoubleClick += dataGV_Reports_CellDoubleClick;
@@ -306,6 +309,7 @@ namespace SPCReportingTool.Forms
 
                 //Remove edit button column
                 this.dataGV_Reports.Columns.RemoveAt(0);
+                AutoSizeDataGV(this.dataGV_Reports, AutoSizeModes.Evenly);
 
                 //Remove events
                 this.dataGV_Reports.CellDoubleClick -= dataGV_Reports_CellDoubleClick;
@@ -499,6 +503,47 @@ namespace SPCReportingTool.Forms
 
 
         /// <summary>
+        /// ResetSearchParam Method
+        /// Set all search parameters to empty values
+        /// </summary>
+        internal void ResetSearchParam()
+        {
+            #region Date
+            this.chсkbx_DateFilter.Checked = false;
+            #endregion
+
+            #region Report ID
+            this.txtbx_ReportID.Text = String.Empty;
+            #endregion
+
+            #region Inspector
+            this.rbtn_InspectorName.Checked = true;
+            this.rbtn_InspectorID.Checked = false;
+
+            this._inspectors = DatabaseManager.GetAllInspectors();
+            DataTable inspectorsDataSource = DatabaseManager.AddNewEmptyDataRow(this._inspectors);
+            this.cmbbx_Inspector.DataSource = inspectorsDataSource;
+            this.cmbbx_Inspector.DisplayMember = inspectorsDataSource.Columns["InspectorName"]?.ToString();
+            this.cmbbx_Inspector.ValueMember = inspectorsDataSource.Columns["InspectorName"]?.ToString();
+
+            this.cmbbx_Inspector.SelectedIndex = 0;
+            #endregion
+
+            #region Inspection Type
+            this.cmbbx_InspectionType.SelectedIndex = 0;
+            #endregion
+
+            #region Product Code
+            this.txtbx_ProductCode.Text = String.Empty;
+            #endregion
+
+            #region Production Order
+            this.txtbx_ProductionOrder.Text = String.Empty;
+            #endregion
+        }
+
+
+        /// <summary>
         /// RefreshReports Method
         /// Get the list of the last 100 reports corresponding to the current search criterias
         /// </summary>
@@ -506,7 +551,7 @@ namespace SPCReportingTool.Forms
         {
             this._reports = DatabaseManager.GetReports(100, GetSearchParameters());
             this.dataGV_Reports.DataSource = this._reports;
-            AutoSizeDataGV(this.dataGV_Reports, 0);
+            AutoSizeDataGV(this.dataGV_Reports, AutoSizeModes.Evenly);
         }
         #endregion
     }

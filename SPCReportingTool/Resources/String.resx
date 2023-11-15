@@ -121,6 +121,14 @@
     <value>Apply changes</value>
     <comment>Text on the Send Data button in edit mode</comment>
   </data>
+  <data name="DateErrorEnd" xml:space="preserve">
+    <value>The end date should be later than the start date</value>
+    <comment>Error message thrown when trying to set an end date earlier than the start date</comment>
+  </data>
+  <data name="DateErrorStart" xml:space="preserve">
+    <value>The start date should be earlier than the end date</value>
+    <comment>Error message thrown when trying to set a start date later than the end date</comment>
+  </data>
   <data name="DBBatchQtyReportView" xml:space="preserve">
     <value>Batch Qty</value>
     <comment>Batch Qty Column name when querying the Report View</comment>

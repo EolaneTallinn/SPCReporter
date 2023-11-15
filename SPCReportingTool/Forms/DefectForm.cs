@@ -404,7 +404,16 @@ namespace SPCReportingTool.Forms
 
             #region Reference
 
-            this.cmbbx_Reference.Text = (string)defectView[Resources.String.DefectViewerCol5];
+            try
+            {
+                this.cmbbx_Reference.Text = (string)(defectView[Resources.String.DefectViewerCol5] ?? String.Empty);
+            }
+            catch
+            {
+                this.cmbbx_Reference.Text = String.Empty;
+            }
+
+            
 
             #endregion
 

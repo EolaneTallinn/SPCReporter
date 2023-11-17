@@ -153,7 +153,7 @@ namespace SPCReportingTool.Forms
             this.btn_SendData.Enabled = CheckData();
         }
 
-
+        
         /// <summary>
         /// txtbx_InspectorID_KeyUp Event Handler
         /// Triggered when the user presses (and release) any key when writing in the text box for Inspector ID
@@ -293,6 +293,7 @@ namespace SPCReportingTool.Forms
                         //Display the Production Order selection form
                         var selectionForm = new SelectionForm(productionOrders);
                         selectionForm.StartPosition = FormStartPosition.CenterParent;
+
                         var result = selectionForm.ShowDialog();
 
                         if (result == DialogResult.OK)
@@ -346,6 +347,30 @@ namespace SPCReportingTool.Forms
 
 
         /// <summary>
+        /// txtbx_QtyChecked_KeyUp Event Handler
+        /// Triggered when the user presses (and release) any key when writing in the text box for quantity checked
+        /// If Enter is pressed: refresh quantity checked info, update the start date in creation mode, and validate the data of the report
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtbx_QtyChecked_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                // Enter key pressed
+
+                e.Handled = true;
+                bool validate = RefreshQtyCheckedInfo();
+                if (validate && !_editMode)
+                {
+                    SetStartDate();
+                }
+                this.btn_SendData.Enabled = CheckData();
+            }
+        }
+
+
+        /// <summary>
         /// btn_AddDefect_Click Event Handler
         /// Triggered when the "Add Defect" is clicked
         /// Show a Defect Form as a dialog box where the defect info can be enetered
@@ -359,6 +384,7 @@ namespace SPCReportingTool.Forms
             //Show the Defect Form as dialog box
             var defectForm = new DefectForm(this.Defects, this.InspectionID);
             defectForm.StartPosition = FormStartPosition.CenterParent;
+
             var result = defectForm.ShowDialog();
 
             if (result == DialogResult.OK)
@@ -503,6 +529,8 @@ namespace SPCReportingTool.Forms
             if (!this._editMode || dateTime_StartDate.Value <= this.EndDate)
             {
                 this.StartDate = dateTime_StartDate.Value;
+                this.EndDate = dateTime_EndDate.Value;
+
                 this.lbl_StartDateValue.Text = this.StartDate.ToString("g");
 
                 this.btn_SendData.Enabled = CheckData();
@@ -527,6 +555,9 @@ namespace SPCReportingTool.Forms
             if (!this._editMode || dateTime_EndDate.Value >= this.StartDate)
             {
                 this.EndDate = dateTime_EndDate.Value;
+                this.StartDate = dateTime_StartDate.Value;
+
+                this.lbl_StartDateValue.Text = this.StartDate.ToString("g");
 
                 this.btn_SendData.Enabled = CheckData();
             }

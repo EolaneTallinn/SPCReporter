@@ -255,6 +255,7 @@ namespace SPCReportingTool.Forms
             resources.ApplyResources(txtbx_QtyChecked, "txtbx_QtyChecked");
             txtbx_QtyChecked.Name = "txtbx_QtyChecked";
             txtbx_QtyChecked.LostFocus += txtbx_QtyChecked_LostFocus;
+            txtbx_QtyChecked.KeyUp += txtbx_QtyChecked_KeyUp;
             // 
             // txtbx_ProductCode
             // 

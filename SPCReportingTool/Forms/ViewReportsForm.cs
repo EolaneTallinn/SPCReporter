@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -549,9 +550,34 @@ namespace SPCReportingTool.Forms
         /// </summary>
         internal void RefreshReports()
         {
+            int selectedIndex = (int)(this.dataGV_Reports.CurrentRow?.Index ?? 0);
+            int selectReportID = (int)this._reports.Rows[selectedIndex][Resources.String.DBReportIDReportView];
+
             this._reports = DatabaseManager.GetReports(100, GetSearchParameters());
             this.dataGV_Reports.DataSource = this._reports;
             AutoSizeDataGV(this.dataGV_Reports, AutoSizeModes.Evenly);
+
+            int newSelecetdIndex = 0;
+            foreach (DataRow row in this._reports.Rows)
+            {
+                if((int)row[Resources.String.DBReportIDReportView] == selectReportID)
+                {
+                    break;
+                }
+
+                newSelecetdIndex++;
+            }
+
+            foreach (DataGridViewRow row in this.dataGV_Reports.Rows)
+            {
+                if (row.Index == newSelecetdIndex)
+                {
+                    this.dataGV_Reports.CurrentCell.Selected = false;
+                    this.dataGV_Reports.CurrentCell = row.Cells[Resources.String.DBReportIDReportView];
+                    this.dataGV_Reports.CurrentCell.Selected = true;
+                    break;
+                }
+            }
         }
         #endregion
     }

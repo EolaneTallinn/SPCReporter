@@ -236,6 +236,7 @@
             // 
             // ViewReportsForm
             // 
+            AcceptButton = btn_Search;
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(btn_Refresh);

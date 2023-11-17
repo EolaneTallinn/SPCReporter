@@ -117,105 +117,105 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;btn_ViewReports.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btn_ViewReports.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;btn_ViewReports.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_NewReport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
-  </data>
-  <data name="btn_ChangeLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="&gt;&gt;btn_NewReport.Name" xml:space="preserve">
-    <value>btn_NewReport</value>
-  </data>
-  <data name="btn_NewReport.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;btn_ViewReports.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_NewReport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 41</value>
-  </data>
-  <data name="&gt;&gt;btn_ViewReports.Name" xml:space="preserve">
-    <value>btn_ViewReports</value>
-  </data>
-  <data name="btn_ChangeLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 23</value>
-  </data>
-  <data name="btn_ViewReports.Text" xml:space="preserve">
-    <value>View Reports</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_ViewReports.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 41</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btn_ChangeLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="btn_ViewReports.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 171</value>
+  <data name="&gt;&gt;btn_ChangeLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btn_ChangeLanguage.Text" xml:space="preserve">
     <value>Switch to Russian</value>
   </data>
-  <data name="&gt;&gt;btn_ChangeLanguage.Type" xml:space="preserve">
+  <data name="btn_ChangeLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;btn_ViewReports.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_NewReport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_NewReport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_NewReport.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_ChangeLanguage.Name" xml:space="preserve">
+    <value>btn_ChangeLanguage</value>
+  </data>
+  <data name="&gt;&gt;btn_ViewReports.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_ViewReports.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_NewReport.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StartMenu</value>
+  </data>
+  <data name="btn_NewReport.Text" xml:space="preserve">
+    <value>New Report</value>
+  </data>
+  <data name="&gt;&gt;btn_ChangeLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_ViewReports.Text" xml:space="preserve">
+    <value>View Reports</value>
+  </data>
+  <data name="btn_ViewReports.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btn_ChangeLanguage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_ChangeLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 23</value>
+  </data>
+  <data name="&gt;&gt;btn_ViewReports.Name" xml:space="preserve">
+    <value>btn_ViewReports</value>
+  </data>
+  <data name="&gt;&gt;btn_NewReport.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btn_ViewReports.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;btn_NewReport.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btn_ViewReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 41</value>
   </data>
-  <data name="&gt;&gt;btn_ChangeLanguage.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btn_ViewReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 171</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>StartMenu</value>
-  </data>
-  <data name="&gt;&gt;btn_ChangeLanguage.Name" xml:space="preserve">
-    <value>btn_ChangeLanguage</value>
-  </data>
-  <data name="&gt;&gt;btn_ChangeLanguage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btn_NewReport.Text" xml:space="preserve">
-    <value>New Report</value>
+  <data name="&gt;&gt;btn_NewReport.Name" xml:space="preserve">
+    <value>btn_NewReport</value>
   </data>
   <data name="btn_NewReport.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 171</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>StartMenu</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>403, 224</value>
   </data>
-  <data name="&gt;&gt;btn_NewReport.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="btn_NewReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
   </data>
-  <data name="btn_NewReport.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>StartMenu</value>
   </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>ru</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>en-US</value>
   </metadata>
 </root>

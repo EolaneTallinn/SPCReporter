@@ -61,9 +61,8 @@ namespace SPCReportingTool.Forms
 
         /// <summary>
         /// btn_ChangeLanguage_Click Event Handler
-        /// Triggered when the "New Report" button is cliked
-        /// /!\ NOT IMPLEMENTED YET /!\
-        /// Will change the language from English to Russian
+        /// Triggered when the "Switch language" button is cliked
+        /// Change the language from English to Russian
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

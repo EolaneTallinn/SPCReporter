@@ -278,15 +278,15 @@
     <comment>Error thrown when no defects are selected but defect action is requested</comment>
   </data>
   <data name="NoOrderErr" xml:space="preserve">
-    <value>Заказов на данный продукт не найдено: </value>
+    <value>Не найдено ни одного заказа на продукт </value>
     <comment>Error thrown when no orders are found for the specified product</comment>
   </data>
   <data name="NoProductSelectedErr" xml:space="preserve">
-    <value>Пожалуйста, заполните код продукта, прежде чем искать заказы</value>
+    <value>Заполните код продукта, прежде чем искать заказы</value>
     <comment>Error thrown when trying to look for production order before filling the product fill</comment>
   </data>
   <data name="NoRowSelectedErr" xml:space="preserve">
-    <value>Ни одна строка не выбрана. Пожалуйста, выберите строку</value>
+    <value>Ни одна строка не выбрана. Выберите строку</value>
     <comment>Error thrown no rows are selected and selection is requested</comment>
   </data>
   <data name="OrderForm" xml:space="preserve">
@@ -298,7 +298,7 @@
     <comment>Confirmation message when trying to remove all the defects</comment>
   </data>
   <data name="SendDataConf" xml:space="preserve">
-    <value>Данные будут отправлены в базу данных. Пожалуйста, проверьте данные и нажмите «Продолжать», если все в порядке.</value>
+    <value>Данные будут отправлены в базу данных. Проверьте данные и нажмите «Продолжить», если все в порядке.</value>
     <comment>Confirmation message when trying to send the data to DB</comment>
   </data>
   <data name="SendDataErr" xml:space="preserve">

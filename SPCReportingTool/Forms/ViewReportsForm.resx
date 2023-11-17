@@ -117,151 +117,220 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;txtbx_ProductionOrder.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1204, 614</value>
-  </data>
-  <data name="&gt;&gt;dateTime_To.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductCode.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="txtbx_ProductionOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>979, 256</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>View Report</value>
-  </data>
-  <data name="txtbx_ProductCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>979, 215</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Inspector.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="lbl_ProductionOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>936, 259</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cmbbx_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 23</value>
-  </data>
-  <data name="txtbx_ProductionOrder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 23</value>
-  </data>
-  <data name="&gt;&gt;dateTime_From.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lbl_InspectionType.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="dateTime_From.Location" type="System.Drawing.Point, System.Drawing">
-    <value>979, 21</value>
-  </data>
-  <data name="&gt;&gt;chсkbx_DateFilter.Name" xml:space="preserve">
-    <value>chсkbx_DateFilter</value>
-  </data>
-  <data name="dateTime_From.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 23</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ReportID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Inspector.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dateTime_To.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Defects.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;btn_Search.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="chсkbx_DateFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>ViewReportsForm</value>
-  </data>
-  <data name="lbl_ProductionOrder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 15</value>
-  </data>
-  <data name="rbtn_InspectorID.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;cmbbx_DateSelection.Name" xml:space="preserve">
+    <value>cmbbx_DateSelection</value>
   </data>
   <data name="&gt;&gt;txtbx_Inspector.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;dataGV_Reports.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Search.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ReportID.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbbx_InspectionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 175</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1204, 614</value>
+  </data>
+  <data name="lbl_ProductCode.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCode.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_EditMode.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbbx_Inspector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 136</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Inspector.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductCode.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportID.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;rbtn_InspectorName.Name" xml:space="preserve">
+    <value>rbtn_InspectorName</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCode.Name" xml:space="preserve">
+    <value>lbl_ProductCode</value>
+  </data>
   <data name="rbtn_InspectorName.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 19</value>
   </data>
-  <data name="&gt;&gt;lbl_ProductionOrder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cmbbx_DateSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="btn_Search.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionType.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;txtbx_Inspector.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Defects.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="lbl_ProductCode.Text" xml:space="preserve">
-    <value>Product Code</value>
-  </data>
-  <data name="rbtn_InspectorName.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="lbl_InspectionType.Text" xml:space="preserve">
-    <value>Inspection Type</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Inspector.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Inspector.Name" xml:space="preserve">
-    <value>groupBox_Inspector</value>
-  </data>
-  <data name="&gt;&gt;txtbx_Inspector.Name" xml:space="preserve">
-    <value>txtbx_Inspector</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ReportID.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;dateTime_From.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btn_EditMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="txtbx_ReportID.Location" type="System.Drawing.Point, System.Drawing">
     <value>979, 96</value>
   </data>
-  <data name="dateTime_To.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;btn_Refresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl_ProductionOrder.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;txtbx_ProductCode.Name" xml:space="preserve">
+    <value>txtbx_ProductCode</value>
+  </data>
+  <data name="txtbx_Inspector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 136</value>
+  </data>
+  <data name="cmbbx_DateSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 21</value>
+  </data>
+  <data name="&gt;&gt;btn_EditMode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Inspector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Refresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCode.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Inspector.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_InspectionType.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbl_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 15</value>
   </data>
   <data name="txtbx_Inspector.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 23</value>
   </data>
-  <data name="txtbx_ProductionOrder.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="&gt;&gt;lbl_ReportID.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductionOrder.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Defects.Name" xml:space="preserve">
+    <value>dataGV_Defects</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Reports.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ReportID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 15</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Inspector.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="btn_EditMode.Text" xml:space="preserve">
+    <value>Enter Edit Mode</value>
+  </data>
+  <data name="rbtn_InspectorID.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lbl_InspectionType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dateTime_To.CustomFormat" xml:space="preserve">
+    <value>dd.MM.yyyy HH:mm</value>
+  </data>
+  <data name="dateTime_From.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Reports.Name" xml:space="preserve">
+    <value>dataGV_Reports</value>
+  </data>
+  <data name="&gt;&gt;chсkbx_DateFilter.Name" xml:space="preserve">
+    <value>chсkbx_DateFilter</value>
+  </data>
+  <data name="txtbx_ReportID.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_DateSelection.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="rbtn_InspectorName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dataGV_Reports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1204, 304</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Inspector.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionType.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btn_EditMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="&gt;&gt;rbtn_InspectorName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ReportID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductionOrder.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btn_Refresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtbx_ReportID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="lbl_ProductCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_InspectionType.Name" xml:space="preserve">
+    <value>cmbbx_InspectionType</value>
+  </data>
+  <data name="rbtn_InspectorName.Text" xml:space="preserve">
+    <value>Inspector Name</value>
+  </data>
+  <data name="&gt;&gt;rbtn_InspectorID.Name" xml:space="preserve">
+    <value>rbtn_InspectorID</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="cmbbx_InspectionType.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_DateSelection.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="groupBox_Inspector.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -270,452 +339,383 @@
   <data name="&gt;&gt;groupBox_Inspector.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cmbbx_InspectionType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>979, 175</value>
+  <data name="lbl_ReportID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>908, 99</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
     <value>307</value>
   </data>
-  <data name="&gt;&gt;dataGV_Defects.Name" xml:space="preserve">
-    <value>dataGV_Defects</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductCode.Name" xml:space="preserve">
-    <value>txtbx_ProductCode</value>
-  </data>
-  <data name="dateTime_From.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_DateSelection.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_InspectionType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>889, 178</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;rbtn_InspectorName.Parent" xml:space="preserve">
-    <value>groupBox_Inspector</value>
-  </data>
-  <data name="&gt;&gt;txtbx_Inspector.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Reports.Name" xml:space="preserve">
-    <value>dataGV_Reports</value>
-  </data>
-  <data name="&gt;&gt;chсkbx_DateFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btn_Search.Location" type="System.Drawing.Point, System.Drawing">
-    <value>991, 632</value>
-  </data>
-  <data name="dateTime_To.Location" type="System.Drawing.Point, System.Drawing">
-    <value>979, 50</value>
-  </data>
-  <data name="dataGV_Defects.Size" type="System.Drawing.Size, System.Drawing">
-    <value>724, 298</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dateTime_From.Name" xml:space="preserve">
-    <value>dateTime_From</value>
-  </data>
-  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="txtbx_Inspector.Location" type="System.Drawing.Point, System.Drawing">
-    <value>979, 136</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="btn_EditMode.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;chсkbx_DateFilter.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_ReportID.Text" xml:space="preserve">
-    <value>Report ID</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductionOrder.Name" xml:space="preserve">
-    <value>lbl_ProductionOrder</value>
-  </data>
-  <data name="&gt;&gt;dateTime_To.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_ProductCode.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="rbtn_InspectorID.Text" xml:space="preserve">
-    <value>Inspector ID</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_DateSelection.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="lbl_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 15</value>
+  <data name="&gt;&gt;dataGV_Defects.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="cmbbx_DateSelection.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 23</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1098, 632</value>
-  </data>
-  <data name="dateTime_To.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 23</value>
-  </data>
-  <data name="lbl_ProductCode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btn_Refresh.Name" xml:space="preserve">
-    <value>btn_Refresh</value>
-  </data>
-  <data name="groupBox_Inspector.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 32</value>
-  </data>
-  <data name="lbl_ProductionOrder.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;rbtn_InspectorName.Name" xml:space="preserve">
-    <value>rbtn_InspectorName</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_InspectionType.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="lbl_InspectionType.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_ReportID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 15</value>
-  </data>
-  <data name="&gt;&gt;rbtn_InspectorID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dataGV_Defects.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 2</value>
-  </data>
-  <data name="dateTime_To.CustomFormat" xml:space="preserve">
-    <value>dd.MM.yyyy HH:mm</value>
-  </data>
-  <data name="btn_Refresh.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1098, 632</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCode.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductionOrder.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCode.Name" xml:space="preserve">
-    <value>lbl_ProductCode</value>
-  </data>
-  <data name="btn_EditMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 23</value>
-  </data>
-  <data name="&gt;&gt;rbtn_InspectorID.Name" xml:space="preserve">
-    <value>rbtn_InspectorID</value>
-  </data>
-  <data name="dataGV_Defects.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionType.Name" xml:space="preserve">
-    <value>lbl_InspectionType</value>
-  </data>
-  <data name="lbl_ProductionOrder.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btn_EditMode.Text" xml:space="preserve">
-    <value>Enter Edit Mode</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btn_EditMode.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btn_Refresh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cmbbx_DateSelection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>767, 21</value>
-  </data>
-  <data name="&gt;&gt;groupBox_Inspector.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="rbtn_InspectorID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 10</value>
-  </data>
-  <data name="&gt;&gt;dateTime_To.Name" xml:space="preserve">
-    <value>dateTime_To</value>
-  </data>
-  <data name="txtbx_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 23</value>
-  </data>
-  <data name="lbl_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 15</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportID.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;btn_EditMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_EditMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 632</value>
-  </data>
-  <data name="&gt;&gt;rbtn_InspectorName.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_InspectionType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;dataGV_Defects.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTime_From.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btn_Refresh.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>View Report</value>
   </data>
-  <data name="&gt;&gt;btn_Refresh.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="txtbx_ProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 215</value>
   </data>
-  <data name="&gt;&gt;txtbx_ReportID.Name" xml:space="preserve">
-    <value>txtbx_ReportID</value>
+  <data name="txtbx_ProductionOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Inspector.Name" xml:space="preserve">
+    <value>groupBox_Inspector</value>
+  </data>
+  <data name="dateTime_To.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btn_Refresh.Name" xml:space="preserve">
+    <value>btn_Refresh</value>
   </data>
   <data name="txtbx_Inspector.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="txtbx_ReportID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 23</value>
-  </data>
-  <data name="&gt;&gt;dateTime_From.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtbx_ReportID.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="btn_Search.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Reports.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="rbtn_InspectorID.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="dataGV_Reports.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1204, 304</value>
-  </data>
-  <data name="rbtn_InspectorID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 19</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportID.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductionOrder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_ProductionOrder.Text" xml:space="preserve">
-    <value>Production Order</value>
-  </data>
-  <data name="btn_Refresh.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;rbtn_InspectorID.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="btn_Search.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_InspectionType.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductionOrder.Name" xml:space="preserve">
-    <value>txtbx_ProductionOrder</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Inspector.Name" xml:space="preserve">
-    <value>cmbbx_Inspector</value>
-  </data>
-  <data name="txtbx_ProductCode.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;lbl_ProductCode.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="lbl_ProductCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>891, 218</value>
-  </data>
-  <data name="cmbbx_Inspector.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;btn_EditMode.Name" xml:space="preserve">
-    <value>btn_EditMode</value>
-  </data>
   <data name="lbl_ReportID.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductCode.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cmbbx_Inspector.Location" type="System.Drawing.Point, System.Drawing">
-    <value>979, 136</value>
-  </data>
-  <data name="dataGV_Reports.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
   </data>
   <data name="dataGV_Reports.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="lbl_ProductionOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>936, 259</value>
+  </data>
   <data name="&gt;&gt;btn_Search.Name" xml:space="preserve">
     <value>btn_Search</value>
   </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cmbbx_DateSelection.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;btn_Search.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBox_Inspector.Location" type="System.Drawing.Point, System.Drawing">
-    <value>730, 127</value>
-  </data>
-  <data name="cmbbx_InspectionType.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="dateTime_From.CustomFormat" xml:space="preserve">
-    <value>dd.MM.yyyy HH:mm</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ProductionOrder.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_InspectionType.Name" xml:space="preserve">
-    <value>cmbbx_InspectionType</value>
-  </data>
-  <data name="rbtn_InspectorName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 10</value>
-  </data>
-  <data name="lbl_ReportID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>908, 99</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Reports.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;rbtn_InspectorName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1228, 667</value>
-  </data>
-  <data name="chсkbx_DateFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>914, 39</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;btn_Refresh.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btn_EditMode.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="groupBox_Inspector.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;dataGV_Reports.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="&gt;&gt;txtbx_ReportID.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;btn_EditMode.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lbl_ReportID.Name" xml:space="preserve">
-    <value>lbl_ReportID</value>
-  </data>
-  <data name="rbtn_InspectorName.Text" xml:space="preserve">
-    <value>Inspector Name</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_DateSelection.Name" xml:space="preserve">
-    <value>cmbbx_DateSelection</value>
-  </data>
-  <data name="&gt;&gt;lbl_InspectionType.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_Inspector.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cmbbx_DateSelection.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="lbl_ReportID.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;chсkbx_DateFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbl_InspectionType.Text" xml:space="preserve">
+    <value>Inspection Type</value>
   </data>
   <data name="&gt;&gt;rbtn_InspectorID.Parent" xml:space="preserve">
     <value>groupBox_Inspector</value>
   </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+  <data name="&gt;&gt;lbl_ProductionOrder.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dataGV_Defects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>724, 298</value>
+  </data>
+  <data name="rbtn_InspectorID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 10</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ReportID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionType.Parent" xml:space="preserve">
     <value>splitContainer1.Panel2</value>
   </data>
   <data name="&gt;&gt;btn_Search.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="rbtn_InspectorName.AutoSize" type="System.Boolean, mscorlib">
+  <data name="&gt;&gt;btn_EditMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="dataGV_Defects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="chсkbx_DateFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;dateTime_From.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="rbtn_InspectorID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 19</value>
+  </data>
+  <data name="&gt;&gt;rbtn_InspectorName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductionOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_InspectionType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Inspector.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbl_InspectionType.Name" xml:space="preserve">
+    <value>lbl_InspectionType</value>
+  </data>
+  <data name="btn_Refresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1098, 632</value>
+  </data>
+  <data name="&gt;&gt;chсkbx_DateFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTime_From.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="rbtn_InspectorID.Text" xml:space="preserve">
+    <value>Inspector ID</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Inspector.Name" xml:space="preserve">
+    <value>txtbx_Inspector</value>
+  </data>
+  <data name="&gt;&gt;btn_Search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGV_Reports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_Inspector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 127</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductionOrder.Name" xml:space="preserve">
+    <value>lbl_ProductionOrder</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Defects.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="btn_Refresh.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_InspectorName.Parent" xml:space="preserve">
+    <value>groupBox_Inspector</value>
+  </data>
+  <data name="lbl_ProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 218</value>
+  </data>
+  <data name="lbl_ReportID.Text" xml:space="preserve">
+    <value>Report ID</value>
+  </data>
+  <data name="lbl_ProductCode.Text" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1228, 667</value>
+  </data>
+  <data name="lbl_InspectionType.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductionOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;btn_Search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_EditMode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox_Inspector.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;chсkbx_DateFilter.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="cmbbx_Inspector.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProductCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Inspector.Name" xml:space="preserve">
+    <value>cmbbx_Inspector</value>
+  </data>
+  <data name="&gt;&gt;chсkbx_DateFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1098, 632</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>991, 632</value>
+  </data>
+  <data name="&gt;&gt;dataGV_Reports.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ViewReportsForm</value>
+  </data>
+  <data name="lbl_ProductionOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 15</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_Inspector.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtbx_ProductionOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="groupBox_Inspector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 32</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="rbtn_InspectorName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 10</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductCode.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductionOrder.Name" xml:space="preserve">
+    <value>txtbx_ProductionOrder</value>
+  </data>
+  <data name="&gt;&gt;dateTime_To.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dateTime_To.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="lbl_ProductionOrder.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ProductionOrder.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="dateTime_From.CustomFormat" xml:space="preserve">
+    <value>dd.MM.yyyy HH:mm</value>
+  </data>
+  <data name="rbtn_InspectorName.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lbl_InspectionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>889, 178</value>
+  </data>
+  <data name="dateTime_From.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 21</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportID.Name" xml:space="preserve">
+    <value>lbl_ReportID</value>
+  </data>
+  <data name="txtbx_ProductCode.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="&gt;&gt;rbtn_InspectorID.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtbx_ProductionOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 256</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ReportID.Name" xml:space="preserve">
+    <value>txtbx_ReportID</value>
+  </data>
+  <data name="&gt;&gt;dateTime_To.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtbx_ReportID.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_InspectionType.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="chсkbx_DateFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 39</value>
+  </data>
+  <data name="&gt;&gt;dateTime_From.Name" xml:space="preserve">
+    <value>dateTime_From</value>
+  </data>
+  <data name="&gt;&gt;cmbbx_DateSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTime_From.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Refresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="btn_EditMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 632</value>
+  </data>
+  <data name="cmbbx_InspectionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="lbl_ProductionOrder.Text" xml:space="preserve">
+    <value>Production Order</value>
+  </data>
+  <data name="dateTime_To.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 50</value>
+  </data>
+  <data name="&gt;&gt;dateTime_To.Name" xml:space="preserve">
+    <value>dateTime_To</value>
+  </data>
+  <data name="&gt;&gt;rbtn_InspectorID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTime_To.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="dataGV_Defects.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_ProductionOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btn_EditMode.Name" xml:space="preserve">
+    <value>btn_EditMode</value>
+  </data>
+  <data name="btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="rbtn_InspectorID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtbx_ProductCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

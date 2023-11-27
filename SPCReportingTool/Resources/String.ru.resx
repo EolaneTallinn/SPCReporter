@@ -293,6 +293,10 @@
     <value>Заказы</value>
     <comment>Title of the order form</comment>
   </data>
+  <data name="OrderSelectionTitle" xml:space="preserve">
+    <value>Заказы</value>
+    <comment>Selection window title when selecting production order</comment>
+  </data>
   <data name="RemoveAllDefectConf" xml:space="preserve">
     <value>Все дефекты будут удалены, и будет невозможно отменить это действие</value>
     <comment>Confirmation message when trying to remove all the defects</comment>

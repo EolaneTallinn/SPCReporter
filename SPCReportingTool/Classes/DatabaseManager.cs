@@ -263,9 +263,12 @@ namespace SPCReportingTool.Classes
         internal static DataTable GetProductionOrders(string material)
         {
             String query = $@"
-                SELECT DISTINCT Order1 AS [Order], Material, [Material Description] AS Description, [Target Qty]
+                SELECT Order1 AS [Order], Material, [Material Description] AS Description, [Target Qty], MIN(DATEADD(ms, DATEDIFF(ms, '00:00:00', [Act Start]), CONVERT(DATETIME, [ActStart]))) AS StartTime
                 FROM OnePlan_DefaultView
-                WHERE Material = '" + material + "'";
+                WHERE ActStart IS NOT NULL
+	                AND Material = '" + material + $@"'
+                GROUP BY Order1, Material, [Material Description], [Target Qty]
+                ORDER BY StartTime DESC";
 
             query = query.Replace("\r\n", "");
 

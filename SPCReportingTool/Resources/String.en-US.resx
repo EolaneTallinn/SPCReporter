@@ -293,6 +293,10 @@
     <value>Orders</value>
     <comment>Title of the order form</comment>
   </data>
+  <data name="OrderSelectionTitle" xml:space="preserve">
+    <value>Orders</value>
+    <comment>Selection window title when selecting production order</comment>
+  </data>
   <data name="RemoveAllDefectConf" xml:space="preserve">
     <value>All the defects will be removed and it will not be possible to undo this action.</value>
     <comment>Confirmation message when trying to remove all the defects</comment>

@@ -560,7 +560,7 @@ namespace SPCReportingTool.Forms
             int newSelecetdIndex = 0;
             foreach (DataRow row in this._reports.Rows)
             {
-                if((int)row[Resources.String.DBReportIDReportView] == selectReportID)
+                if ((int)row[Resources.String.DBReportIDReportView] == selectReportID)
                 {
                     break;
                 }

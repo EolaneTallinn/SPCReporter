@@ -289,6 +289,10 @@
     <value>No row selected. Please select an row</value>
     <comment>Error thrown when no rows are selected and selection is requested</comment>
   </data>
+  <data name="OrderSelectionTitle" xml:space="preserve">
+    <value>Orders</value>
+    <comment>Selection window title when selecting production order</comment>
+  </data>
   <data name="RemoveAllDefectConf" xml:space="preserve">
     <value>This action will remove all the defects that you have registered and it cannot be undone.</value>
     <comment>Confirmation message when trying to remove all the defects</comment>

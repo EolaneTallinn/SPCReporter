@@ -448,6 +448,15 @@ namespace SPCReportingTool.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Orders.
+        /// </summary>
+        internal static string OrderSelectionTitle {
+            get {
+                return ResourceManager.GetString("OrderSelectionTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This action will remove all the defects that you have registered and it cannot be undone..
         /// </summary>
         internal static string RemoveAllDefectConf {

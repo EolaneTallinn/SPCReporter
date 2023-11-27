@@ -291,7 +291,7 @@ namespace SPCReportingTool.Forms
                     if (productionOrders.Rows.Count > 0)
                     {
                         //Display the Production Order selection form
-                        var selectionForm = new SelectionForm(productionOrders);
+                        var selectionForm = new SelectionForm(productionOrders, Resources.String.OrderSelectionTitle);
                         selectionForm.StartPosition = FormStartPosition.CenterParent;
 
                         var result = selectionForm.ShowDialog();

@@ -38,6 +38,29 @@ namespace SPCReportingTool.Forms
 
             this.btn_Select.Select();
         }
+
+        /// <summary>
+        /// SelectionForm Constructor
+        /// Initialize all the form's elements, set the specified title of the window
+        /// Set the datasource for the Grid View and the data variable
+        /// Set the size of the columns for the Griv View
+        /// </summary>
+        /// <param name="dt"></param>
+        /// <param name="title"></param>
+        public SelectionForm(DataTable dt, string title)
+        {
+            InitializeComponent();
+
+            this.Text = title;
+
+            this.dataGV_Selection.DataSource = dt;
+            this._data = dt;
+            this.Selection = null;
+
+            AutoSizeDataGV(this.dataGV_Selection, AutoSizeModes.Evenly);
+
+            this.btn_Select.Select();
+        }
         #endregion
 
 

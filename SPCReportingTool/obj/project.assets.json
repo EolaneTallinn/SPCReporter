@@ -470,23 +470,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tn_merqe\\.nuget\\packages\\": {},
+    "C:\\Users\\tn_kozdm\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tn_merqe\\Documents\\GitHub\\SPCReporter\\SPCReportingTool\\SPCReportingTool.csproj",
+      "projectUniqueName": "T:\\IT\\1_IT teenused\\220_GIT\\SPCReporter\\SPCReportingTool\\SPCReportingTool.csproj",
       "projectName": "SPCReportingTool",
-      "projectPath": "C:\\Users\\tn_merqe\\Documents\\GitHub\\SPCReporter\\SPCReportingTool\\SPCReportingTool.csproj",
-      "packagesPath": "C:\\Users\\tn_merqe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tn_merqe\\Documents\\GitHub\\SPCReporter\\SPCReportingTool\\obj\\",
+      "projectPath": "T:\\IT\\1_IT teenused\\220_GIT\\SPCReporter\\SPCReportingTool\\SPCReportingTool.csproj",
+      "packagesPath": "C:\\Users\\tn_kozdm\\.nuget\\packages\\",
+      "outputPath": "T:\\IT\\1_IT teenused\\220_GIT\\SPCReporter\\SPCReportingTool\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tn_merqe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tn_kozdm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -529,6 +529,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -537,7 +555,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
